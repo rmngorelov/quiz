@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Quiz</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz-container">
+            <div id="progress-bar">
+                <span id="progress-text">Question Progress: </span>
+                <span id="mastery-text">Mastered: </span>
+            </div>
+            
+            <div id="question-container">
+                <p id="question-text"></p>
+                <div id="choices-container"></div>
+            </div>
+            
+            <div id="feedback-container" style="display: none;">
+                <p id="feedback-text"></p>
+                <p id="streak-text"></p>
+            </div>
+            
+            <div id="session-summary" style="display: none;">
+                <h2>Session Complete!</h2>
+                <div id="summary-stats"></div>
+                <button id="continue-btn">Continue Studying</button>
+                <button id="reset-btn">Start New Session</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/quiz.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
