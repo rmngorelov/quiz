@@ -9,15 +9,16 @@ class Quiz {
         this.targetStreak = 3;
         this.challengeThreshold = 5;
         this.isInChallengeMode = false;
-        this.challengeModeProgress = new Map();
+        this.challengeModeProgress = new Map(); // Maps questionId -> {remastered: boolean, streak: number}
     }
 
     async loadQuestions() {
         try {
             const response = await fetch('data/questions.json');
             const data = await response.json();
-            this.questions = data.questions.map(q => ({
+            this.questions = data.questions.map((q, index) => ({
                 ...q,
+                id: `question-${index}`, // Add unique ID to each question
                 stats: {
                     currentStreak: 0,
                     totalAttempts: 0,
@@ -30,6 +31,8 @@ class Quiz {
             this.activeQuestions = [...this.questions];
         } catch (error) {
             console.error('Error loading questions:', error);
+            // Alert the user about loading error
+            alert('Failed to load questions. Please refresh the page.');
         }
     }
 
@@ -52,9 +55,10 @@ class Quiz {
         // Filter out already re-mastered questions in challenge mode
         let availableQuestions = currentPool;
         if (this.isInChallengeMode) {
-            availableQuestions = currentPool.filter(question =>
-                !this.challengeModeProgress.get(question.text)
-            );
+            availableQuestions = currentPool.filter(question => {
+                const progress = this.challengeModeProgress.get(question.id);
+                return !progress?.remastered;
+            });
 
             if (availableQuestions.length === 0) {
                 return null;
@@ -73,7 +77,10 @@ class Quiz {
         this.challengeModeProgress.clear();
         this.challengedQuestions.forEach(q => {
             q.stats.currentStreak = 0;
-            this.challengeModeProgress.set(q.text, false);
+            this.challengeModeProgress.set(q.id, {
+                remastered: false,
+                streak: 0
+            });
         });
     }
 
@@ -91,6 +98,7 @@ class Quiz {
         }
 
         const isCorrect = selectedAnswer === question.correctAnswer;
+        
         if (isCorrect) {
             question.stats.correctAttempts++;
             question.stats.currentStreak++;
@@ -106,29 +114,48 @@ class Quiz {
                     this.activeQuestions = this.activeQuestions.filter(q => q !== question);
                 }
             } else {
-                if (question.stats.currentStreak >= this.targetStreak) {
-                    this.challengeModeProgress.set(question.text, true);
+                // Update progress in challenge mode
+                const progress = this.challengeModeProgress.get(question.id);
+                if (progress) {
+                    progress.streak++;
+                    if (progress.streak >= this.targetStreak) {
+                        progress.remastered = true;
+                    }
                 }
             }
         } else {
             question.stats.currentStreak = 0;
+            
+            // In challenge mode, reset the streak in challengeModeProgress
+            if (this.isInChallengeMode) {
+                const progress = this.challengeModeProgress.get(question.id);
+                if (progress) {
+                    progress.streak = 0;
+                }
+            }
         }
 
         return {
             isCorrect,
-            streak: question.stats.currentStreak,
+            streak: this.isInChallengeMode ? 
+                this.challengeModeProgress.get(question.id)?.streak : 
+                question.stats.currentStreak,
             isMastered: question.stats.isMastered,
             attempts: question.stats.attemptsBeforeMastery
         };
     }
 
     isChallengeCompleted() {
-        return Array.from(this.challengeModeProgress.values()).every(v => v === true);
+        if (!this.isInChallengeMode) return false;
+        
+        return Array.from(this.challengeModeProgress.values())
+            .every(progress => progress.remastered === true);
     }
 
     getChallengeStats() {
         const total = this.challengedQuestions.length;
-        const completed = Array.from(this.challengeModeProgress.values()).filter(v => v).length;
+        const completed = Array.from(this.challengeModeProgress.values())
+            .filter(progress => progress.remastered).length;
         return {
             total,
             completed,
@@ -137,28 +164,33 @@ class Quiz {
     }
 
     getSessionStats() {
-        if (this.isInChallengeMode) {
-            const challengeStats = this.getChallengeStats();
-            return {
-                ...challengeStats,
-                isInChallengeMode: true
-            };
-        }
-        return {
+        const baseStats = {
             totalQuestions: this.questions.length,
             masteredQuestions: this.masteredQuestions.length,
             remainingQuestions: this.activeQuestions.length,
             challengedQuestions: this.challengedQuestions.length,
+        };
+        
+        if (this.isInChallengeMode) {
+            const challengeStats = this.getChallengeStats();
+            return {
+                ...baseStats,
+                ...challengeStats,
+                isInChallengeMode: true
+            };
+        }
+        
+        return {
+            ...baseStats,
             isInChallengeMode: false
         };
     }
 
     resetSession() {
-        this.isInChallengeMode = false;
+        this.exitChallengeMode(); // Explicitly call exitChallengeMode
         this.activeQuestions = [...this.questions];
         this.masteredQuestions = [];
         this.challengedQuestions = [];
-        this.challengeModeProgress.clear();
         this.questions.forEach(q => {
             q.stats = {
                 currentStreak: 0,
