@@ -42,15 +42,27 @@ class Quiz {
     }
 
     getNextQuestion() {
-        const currentPool = this.isInChallengeMode ? 
+        const currentPool = this.isInChallengeMode ?
             this.challengedQuestions : this.activeQuestions;
 
         if (currentPool.length === 0) {
             return null;
         }
-        
-        this.currentQuestion = currentPool[
-            Math.floor(Math.random() * currentPool.length)
+
+        // Filter out already re-mastered questions in challenge mode
+        let availableQuestions = currentPool;
+        if (this.isInChallengeMode) {
+            availableQuestions = currentPool.filter(question =>
+                !this.challengeModeProgress.get(question.text)
+            );
+
+            if (availableQuestions.length === 0) {
+                return null;
+            }
+        }
+
+        this.currentQuestion = availableQuestions[
+            Math.floor(Math.random() * availableQuestions.length)
         ];
         this.currentQuestion.shuffledChoices = this.shuffleArray([...this.currentQuestion.choices]);
         return this.currentQuestion;
@@ -73,16 +85,16 @@ class Quiz {
     processAnswer(selectedAnswer) {
         const question = this.currentQuestion;
         question.stats.totalAttempts++;
-        
+
         if (!question.stats.isMastered) {
             question.stats.attemptsBeforeMastery++;
         }
-        
+
         const isCorrect = selectedAnswer === question.correctAnswer;
         if (isCorrect) {
             question.stats.correctAttempts++;
             question.stats.currentStreak++;
-            
+
             if (!this.isInChallengeMode) {
                 if (question.stats.currentStreak >= this.targetStreak && !question.stats.isMastered) {
                     question.stats.isMastered = true;
