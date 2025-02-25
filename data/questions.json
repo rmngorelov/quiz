@@ -1,804 +1,244 @@
 {
     "questions": [
         {
-            "text": "What is biology the scientific study of?",
-            "choices": ["The universe", "Life", "Rocks", "Weather"],
-            "correctAnswer": "Life"
+            "text": "Where is Ancient China located?",
+            "choices": ["Eastern Asia", "Western Europe", "Southern Africa", "Northern America"],
+            "correctAnswer": "Eastern Asia"
         },
         {
-            "text": "Which of the following questions might a biologist ask?",
-            "choices": ["How does a single cell develop into an organism?", "How does the human mind work?", "How do different forms of life in a forest interact?", "All of the above"],
-            "correctAnswer": "All of the above"
+            "text": "Which ocean borders China to the east?",
+            "choices": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+            "correctAnswer": "Pacific Ocean"
         },
         {
-            "text": "What is a fundamental principle of biology?",
-            "choices": ["Photosynthesis", "Evolution", "Respiration", "Digestion"],
-            "correctAnswer": "Evolution"
+            "text": "Which modern region did Ancient China eventually spread to in the west?",
+            "choices": ["Central Asia's deserts", "Mediterranean coast", "Siberian plains", "Middle Eastern valleys"],
+            "correctAnswer": "Central Asia's deserts"
         },
         {
-            "text": "What do adaptations of organisms to their environment result from?",
-            "choices": ["Mutation", "Evolution", "Artificial selection", "Genetic drift"],
-            "correctAnswer": "Evolution"
+            "text": "Where did Chinese civilization first begin?",
+            "choices": ["Along the Huang He River", "Along the Yangtze River", "In the Gobi Desert", "In the Himalayan Mountains"],
+            "correctAnswer": "Along the Huang He River"
         },
         {
-            "text": "What is a unifying theme in biology that helps organize biological information?",
-            "choices": ["Organization", "Information", "Energy and matter", "All of the above"],
-            "correctAnswer": "All of the above"
+            "text": "In which direction did Ancient China spread from the Huang He River?",
+            "choices": ["Southward", "Northward", "Eastward", "Westward"],
+            "correctAnswer": "Southward"
         },
         {
-            "text": "Life can be studied at different levels, from:",
-            "choices": ["Atoms to molecules", "Molecules to cells", "Cells to the entire living planet", "All of the above"],
-            "correctAnswer": "Cells to the entire living planet"
+            "text": "Which river did Chinese civilization spread to after the Huang He River?",
+            "choices": ["Yangtze River", "Yellow River", "Mekong River", "Pearl River"],
+            "correctAnswer": "Yangtze River"
         },
         {
-            "text": "What is the correct order of the levels of biological organization from smallest to largest?",
-            "choices": ["Ecosystem, population, organism, cell", "Cell, tissue, organ, organism", "Organism, community, ecosystem, biosphere", "Molecule, organelle, cell, ecosystem"],
-            "correctAnswer": "Cell, tissue, organ, organism"
+            "text": "Which of these is NOT a major geographic feature in or surrounding China?",
+            "choices": ["Sahara Desert", "Huang He River", "Yangtze River", "Himalayas Mountains"],
+            "correctAnswer": "Sahara Desert"
         },
         {
-            "text": "Which of the following is the most inclusive level of biological organization?",
-            "choices": ["Population", "Community", "Ecosystem", "Biosphere"],
-            "correctAnswer": "Biosphere"
+            "text": "Which mountain range is found in China?",
+            "choices": ["Himalayas", "Alps", "Andes", "Rocky Mountains"],
+            "correctAnswer": "Himalayas"
         },
         {
-            "text": "What is reductionism in the context of studying complex systems?",
-            "choices": ["Expanding the system to include more components", "Reducing complex systems to simpler components", "Ignoring the interactions between components", "Studying the system as a whole without breaking it down"],
-            "correctAnswer": "Reducing complex systems to simpler components"
+            "text": "What desert is found in northern China?",
+            "choices": ["Gobi Desert", "Sahara Desert", "Arabian Desert", "Kalahari Desert"],
+            "correctAnswer": "Gobi Desert"
         },
         {
-            "text": "The scientific study of life is called:",
-            "choices": ["Chemistry", "Physics", "Biology", "Geology"],
-            "correctAnswer": "Biology"
+            "text": "How many seasons does China have?",
+            "choices": ["4", "2", "3", "5"],
+            "correctAnswer": "4"
         },
         {
-            "text": "What is the process of change that has resulted in the astounding array of organisms found on Earth?",
-            "choices": ["Metamorphosis", "Evolution", "Development", "Differentiation"],
-            "correctAnswer": "Evolution"
+            "text": "Which season is NOT experienced in China's climate?",
+            "choices": ["Monsoon season", "Winter", "Spring", "Summer"],
+            "correctAnswer": "Monsoon season"
         },
-         {
-            "text": "Which domains consist of prokaryotes?",
-            "choices": ["Eukarya", "Bacteria and Archaea", "Eukarya and Archaea", "Animalia and Plantae"],
-            "correctAnswer": "Bacteria and Archaea"
-        },
-        {
-            "text": "Which of the following eukaryotic kingdoms includes organisms that produce their own food by photosynthesis?",
-            "choices": ["Fungi", "Animalia", "Plantae", "Protists"],
-            "correctAnswer": "Plantae"
-        },
-        {
-            "text": "What is the role of fungi in the domain Eukarya?",
-            "choices": ["Produce their own food by photosynthesis", "Obtain food by eating and digesting other organisms", "Absorb nutrients from their surroundings", "Carry out photosynthesis in aquatic environments"],
-            "correctAnswer": "Absorb nutrients from their surroundings"
-        },
-        {
-            "text": "What is the universal genetic language common to all organisms?",
-            "choices": ["Proteins", "Carbohydrates", "RNA", "DNA"],
-            "correctAnswer": "DNA"
-        },
-        {
-            "text": "What reflects the inheritance of a limb structure from a common ancestor?",
-            "choices": ["The diversity of mammalian limbs", "The shared anatomy of mammalian limbs", "Modification by natural selection", "Convergent evolution"],
-            "correctAnswer": "The shared anatomy of mammalian limbs"
-        },
-        {
-            "text": "The remarkably diverse forms of life on this planet arose by what processes?",
-            "choices": ["Environmental adaptation", "Mutation", "Evolutionary processes", "Genetic drift"],
-            "correctAnswer": "Evolutionary processes"
-        },
-        {
-            "text": "What led to a reevaluation of larger groupings of classifying the diversity of life?",
-            "choices": ["Careful analysis of form and function", "New methods of assessing species relationships", "Human grouping based on similarities", "Habitat analysis"],
-            "correctAnswer": "New methods of assessing species relationships"
-        },
-        {
-            "text": "What is the directional change in global climate that lasts three decades or more?",
-            "choices": ["Global warming", "Ozone depletion", "Climate change", "Acid rain"],
-            "correctAnswer": "Climate change"
-        },
-        {
-            "text": "Scientists calculate that the CO2 that human activities have added to the atmosphere has increased the average temperature of the planet by how much since 1900?",
-            "choices": ["0.5°C", "1°C", "1.5°C", "2°C"],
-            "correctAnswer": "1°C"
-        },
-        {
-            "text": "What accounts for both the *unity and diversity of life*?",
-            "choices": ["Mutation", "Natural selection", "The theory of evolution", "Genetic drift"],
-            "correctAnswer": "The theory of evolution"
-        },
-        {
-            "text": "The evolutionary relationships are illustrated with what?",
-            "choices": ["Food webs", "Treelike diagrams", "Punnett squares", "Scatter plots"],
-            "correctAnswer": "Treelike diagrams"
-        },
-        {
-            "text": "Similar traits in two species are explained by what?",
-            "choices": ["Convergent evolution", "Descent from a common ancestor", "Parallel evolution", "Divergent evolution"],
-            "correctAnswer": "Descent from a common ancestor"
-        },
-        {
-            "text": "Differences between two species indicate that what has occurred after divergence from a common ancestor?",
-            "choices": ["Genetic drift", "Heritable changes", "Stabilizing selection", "Gene flow"],
-            "correctAnswer": "Heritable changes"
-        },
-        {
-            "text": "What did Darwin propose could cause an ancestral species to give rise to two or more descendant species?",
-            "choices": ["Genetic drift", "Mutation", "Natural selection", "Artificial selection"],
-            "correctAnswer": "Natural selection"
-        },
-        {
-            "text": "The finch species of the Galápagos Islands are descended from what?",
-            "choices": ["A separate creation event for each species", "A common ancestor", "Migration from different continents", "Artificial selection by humans"],
-            "correctAnswer": "A common ancestor"
-        },
-        {
-            "text": "The shared anatomy of mammalian limbs reflects what?",
-            "choices": ["Convergent evolution", "A random occurrence", "Inheritance of a limb structure from a common ancestor", "Different developmental pathways"],
-            "correctAnswer": "Inheritance of a limb structure from a common ancestor"
-        },
-        {
-            "text": "What process accounts for the remarkably diverse forms of life on this planet?",
-            "choices": ["Special creation", "Environmental adaptation", "Evolutionary processes", "Genetic engineering"],
-            "correctAnswer": "Evolutionary processes"
-        },
-        {
-            "text": "What is the mechanism of evolutionary adaptation?",
-            "choices": ["Genetic drift", "Mutation", "Natural selection", "Artificial selection"],
-            "correctAnswer": "Natural selection"
-        },
-        {
-            "text": "What is natural selection?",
-            "choices": ["A process where humans choose desired traits", "A random process", "The natural environment 'selects' for advantageous traits", "The process of genetic drift"],
-            "correctAnswer": "The natural environment 'selects' for advantageous traits"
-        },
-        {
-            "text": "In the context of natural selection, what tends to happen over many generations?",
-            "choices": ["Disappearance of advantageous traits", "Equal distribution of all traits", "More individuals in a population will have the advantageous traits", "A decrease in genetic variation"],
-            "correctAnswer": "More individuals in a population will have the advantageous traits"
-        },
-        {
-            "text": "According to Darwin's observations, what is inevitable due to the production of more offspring than can survive?",
-            "choices": ["Cooperation", "Symbiosis", "Competition", "Mutualism"],
-            "correctAnswer": "Competition"
-        },
-        {
-            "text": "What was one of Darwin's main points in 'On the Origin of Species'?",
-            "choices": ["Species are fixed and unchangeable", "Species showed evidence of 'descent with modification' from common ancestors", "Acquired traits can be inherited", "Evolution is driven by random chance"],
-            "correctAnswer": "Species showed evidence of 'descent with modification' from common ancestors"
-        },
-        {
-            "text": "What publication is credited to Charles Darwin in 1859?",
-            "choices": ["The Selfish Gene", " চাষ অব লাইফ", "On the Origin of Species by Means of Natural Selection", "Principles of Geology"],
-            "correctAnswer": "On the Origin of Species by Means of Natural Selection"
-        },
-        {
-            "text": "Why is DNA considered a remarkable unity underlying the diversity of life?",
-            "choices": ["Because it is only found in certain organisms", "Because it varies greatly between species", "Because it is the universal genetic language common to all organisms", "Because it is not subject to mutation"],
-            "correctAnswer": "Because it is the universal genetic language common to all organisms"
-        },
-        {
-            "text": "What is the significance of fossils in understanding the unity and diversity of life?",
-            "choices": ["They provide evidence for a young Earth", "They document the evolution of life on Earth over billions of years", "They support the idea of fixed, unchanging species", "They are irrelevant to the study of evolution"],
-            "correctAnswer": "They document the evolution of life on Earth over billions of years"
-        },
-        {
-            "text": "How does natural selection lead to the diversity of mammalian limbs?",
-            "choices": ["By maintaining a uniform limb structure", "By randomly altering limb structures", "By modification over millions of years", "By preventing adaptation to different environments"],
-            "correctAnswer": "By modification over millions of years"
-        },
-        {
-            "text": "What is the role of the natural environment in natural selection?",
-            "choices": ["It creates mutations", "It provides a habitat", "It 'selects' for advantageous traits in the population [1]", "It prevents adaptation"],
-            "correctAnswer": "It 'selects' for advantageous traits in the population [1]"
-        },
-        {
-            "text": "What is the correct sequence of natural selection?",
-            "choices": ["Increased frequency of traits -> reproduction of survivors -> elimination of individuals -> population with varied traits", "Elimination of individuals -> reproduction of survivors -> population with varied traits -> increased frequency of traits", "Population with varied traits -> elimination of individuals -> reproduction of survivors -> increased frequency of traits", "Reproduction of survivors -> increased frequency of traits -> population with varied traits -> elimination of individuals"],
-            "correctAnswer": "Population with varied traits -> elimination of individuals -> reproduction of survivors -> increased frequency of traits"
-        },
-        {
-            "text": "How does descent from a common ancestor explain the unity of life?",
-            "choices": ["It explains the independent origin of species", "It suggests that all species have identical traits", "It indicates that similar traits are inherited from a shared lineage", "It implies that evolution does not occur"],
-            "correctAnswer": "It indicates that similar traits are inherited from a shared lineage"
-        },
-		{
-            "text": "Which of the following organisms are considered producers in a community?",
-            "choices": ["Plants", "Animals", "Fungi", "Bacteria"],
-            "correctAnswer": "Plants"
-        },
-        {
-            "text": "What is the role of consumers in a community?",
-            "choices": ["To produce their own food", "To convert sunlight into chemical energy", "To feed on other organisms", "To decompose organic matter"],
-            "correctAnswer": "To feed on other organisms"
-        },
-        {
-            "text": "Which process do producers use to create their own food?",
-            "choices": ["Cellular respiration", "Digestion", "Photosynthesis", "Decomposition"],
-            "correctAnswer": "Photosynthesis"
-        },
-        {
-            "text": "Which of these organisms would be classified as a consumer?",
-            "choices": ["Algae", "Grass", "Cows", "Trees"],
-            "correctAnswer": "Cows"
-        },
-        {
-            "text": "In a forest community, which of the following is a producer?",
-            "choices": ["Deer", "Mushrooms", "Oak Trees", "Wolves"],
-            "correctAnswer": "Oak Trees"
-        },
-        {
-            "text": "What is the primary source of energy for producers in most communities?",
-            "choices": ["Chemical compounds", "Other organisms", "The sun", "The Earth's core"],
-            "correctAnswer": "The sun"
-        },
-        {
-            "text": "Which of the following describes the flow of energy in a community?",
-            "choices": ["From consumers to producers", "From decomposers to producers", "From producers to consumers", "Energy cycles endlessly"],
-            "correctAnswer": "From producers to consumers"
-        },
-        {
-            "text": "What term describes an organism that obtains energy by feeding on producers?",
-            "choices": ["Decomposer", "Primary consumer", "Secondary consumer", "Producer"],
-            "correctAnswer": "Primary consumer"
-        },
-        {
-            "text": "Which of the following is an example of an interaction within a community?",
-            "choices": ["A plant taking up water from the soil", "Two animals benefiting each other", "The roots breaking up rocks", "Climate change"],
-            "correctAnswer": "Two animals benefiting each other"
-        },
-        {
-            "text": "What is the role of plants in a community?",
-            "choices": ["To consume other organisms", "To provide shelter", "To produce food through photosynthesis", "To decompose dead matter"],
-            "correctAnswer": "To produce food through photosynthesis"
-        },
-        {
-            "text": "In a prairie ecosystem, which organism is a producer?",
-            "choices": ["Bison", "Prairie dogs", "Grass", "Coyotes"],
-            "correctAnswer": "Grass"
-        },
-        {
-            "text": "Which term describes an organism that eats other consumers?",
-            "choices": ["Producer", "Primary consumer", "Secondary consumer", "Decomposer"],
-            "correctAnswer": "Secondary consumer"
-        },
-        {
-            "text": "How do consumers obtain energy and matter?",
-            "choices": ["By producing it themselves", "By absorbing it from the soil", "By feeding on other organisms", "By converting sunlight directly"],
-            "correctAnswer": "By feeding on other organisms"
-        },
-        {
-            "text": "Which of the following is NOT a characteristic of a producer?",
-            "choices": ["Undergoing photosynthesis", "Producing its own food", "Being an autotroph", "Consuming other organisms"],
-            "correctAnswer": "Consuming other organisms"
-        },
-        {
-            "text": "What is the relationship between producers and consumers in a food chain?",
-            "choices": ["Producers eat consumers", "Consumers create food for producers", "Producers provide energy for consumers", "They do not interact"],
-            "correctAnswer": "Producers provide energy for consumers"
-        },
-        {
-            "text": "Which organism converts the energy of sunlight into the chemical energy of sugars?",
-            "choices": ["A consumer", "A decomposer", "A producer", "A fungus"],
-            "correctAnswer": "A producer"
-        },
-        {
-            "text": "What is the ecological role of a primary consumer?",
-            "choices": ["To prey on secondary consumers", "To decompose dead organic matter", "To eat producers", "To produce energy from sunlight"],
-            "correctAnswer": "To eat producers"
-        },
-        {
-            "text": "Which of the following organisms is capable of photosynthesis?",
-            "choices": ["Mushroom", "Snake", "Rose bush", "Rabbit"],
-            "correctAnswer": "Rose bush"
-        },
-        {
-            "text": "What best describes the interaction between organisms and their environment?",
-            "choices": ["Organisms do not affect their environment", "Environments are affected by the organisms living in it", "Organisms and their environments affect each other", "Environments determine which organisms survive"],
-            "correctAnswer": "Organisms and their environments affect each other"
-        },
-        {
-            "text": "Which of the following is an example of a producer-consumer relationship?",
-            "choices": ["A plant taking up nutrients", "A fox eating a rabbit", "A tree providing shade", "A rock weathering"],
-            "correctAnswer": "A fox eating a rabbit"
-        },
-		{
-            "text": "What is the primary goal of the scientific method?",
-            "choices": ["To prove a hypothesis", "To propose theories about the natural world", "To gather data without a purpose", "To ignore previous research"],
-            "correctAnswer": "To propose theories about the natural world"
-        },
-        {
-            "text": "Which of the following is the first step in the scientific method?",
-            "choices": ["Forming a hypothesis", "Making observations", "Conducting experiments", "Analyzing data"],
-            "correctAnswer": "Making observations"
-        },
-        {
-            "text": "What is a hypothesis in the context of the scientific method?",
-            "choices": ["A proven fact", "A guess without evidence", "An explanation based on observations and assumptions that leads to a testable prediction", "A summary of data"],
-            "correctAnswer": "An explanation based on observations and assumptions that leads to a testable prediction"
-        },
-        {
-            "text": "What is the purpose of an experiment in the scientific method?",
-            "choices": ["To confirm a theory", "To test a hypothesis", "To avoid making observations", "To create new data"],
-            "correctAnswer": "To test a hypothesis"
-        },
-        {
-            "text": "In experimental design, what is a controlled experiment?",
-            "choices": ["An experiment with no variables", "An experiment with many uncontrolled variables", "An experiment that compares an experimental group with a control group", "An experiment without a hypothesis"],
-            "correctAnswer": "An experiment that compares an experimental group with a control group"
-        },
-        {
-            "text": "What is the role of a control group in an experiment?",
-            "choices": ["To receive the experimental treatment", "To serve as a baseline for comparison", "To introduce bias into the experiment", "To complicate the results"],
-            "correctAnswer": "To serve as a baseline for comparison"
-        },
         {
-            "text": "What is an independent variable in an experiment?",
-            "choices": ["The variable that is measured", "The variable that is kept constant", "The variable that is manipulated by the researcher", "The variable that is not important"],
-            "correctAnswer": "The variable that is manipulated by the researcher"
+            "text": "Which seasons make up China's climate cycle?",
+            "choices": ["Winter, spring, summer, and fall", "Wet and dry", "Hot, warm, cool, and cold", "Monsoon and drought"],
+            "correctAnswer": "Winter, spring, summer, and fall"
         },
         {
-            "text": "What is a dependent variable in an experiment?",
-            "choices": ["The variable that is manipulated", "The variable that is controlled", "The effect of the manipulated factor", "A constant factor"],
-            "correctAnswer": "The effect of the manipulated factor"
+            "text": "Which is NOT a geographical feature found in China?",
+            "choices": ["Fjords", "Mountains", "Deserts", "Forests"],
+            "correctAnswer": "Fjords"
         },
         {
-            "text": "Why is data analysis important in the scientific method?",
-            "choices": ["To confuse the results", "To avoid drawing conclusions", "To interpret the results and draw conclusions", "To ignore the evidence"],
-            "correctAnswer": "To interpret the results and draw conclusions"
+            "text": "Which landform creates natural barriers around parts of China?",
+            "choices": ["Mountains", "Rivers", "Forests", "Plains"],
+            "correctAnswer": "Mountains"
         },
         {
-            "text": "What is inductive reasoning?",
-            "choices": ["Drawing conclusions from specific observations to make generalizations", "Starting with a general premise to predict specific results", "Ignoring observations", "Avoiding generalizations"],
-            "correctAnswer": "Drawing conclusions from specific observations to make generalizations"
+            "text": "What geographic feature helped isolate China from other civilizations?",
+            "choices": ["Mountains and deserts", "Islands and oceans", "Lakes and rivers", "Plateaus and valleys"],
+            "correctAnswer": "Mountains and deserts"
         },
         {
-            "text": "What is deductive reasoning?",
-            "choices": ["Making broad generalizations", "Extrapolating from general premises to specific predictions", "Ignoring premises", "Avoiding predictions"],
-            "correctAnswer": "Extrapolating from general premises to specific predictions"
+            "text": "Where did Ancient Chinese farmers primarily establish their farms?",
+            "choices": ["In fertile soil along rivers", "On mountain terraces", "In desert oases", "In cleared forest land"],
+            "correctAnswer": "In fertile soil along rivers"
         },
         {
-            "text": "What makes a hypothesis testable and falsifiable?",
-            "choices": ["It is based on supernatural explanations", "It can be proven true", "It can be tested through experiments or observations", "It is outside the bounds of science"],
-            "correctAnswer": "It can be tested through experiments or observations"
+            "text": "What agricultural adaptation did Ancient Chinese make to their environment?",
+            "choices": ["Farming in fertile soil along rivers", "Building floating gardens", "Creating underground farms", "Developing vertical farming"],
+            "correctAnswer": "Farming in fertile soil along rivers"
         },
         {
-            "text": "In science, what is a theory?",
-            "choices": ["A simple guess", "A hypothesis that has not been tested", "A broad explanation supported by a large body of evidence", "An irrelevant idea"],
-            "correctAnswer": "A broad explanation supported by a large body of evidence"
+            "text": "Why did Ancient Chinese farmers settle near rivers?",
+            "choices": ["For fertile soil", "For transportation", "For protection", "For religious reasons"],
+            "correctAnswer": "For fertile soil"
         },
         {
-            "text": "Why is replication of experiments important in science?",
-            "choices": ["To confuse the results", "To introduce bias", "To confirm observations and ensure accuracy", "To avoid checking claims"],
-            "correctAnswer": "To confirm observations and ensure accuracy"
+            "text": "How did Ancient Chinese adapt to water resources?",
+            "choices": ["Fished in rivers and seas", "Built dams and reservoirs", "Created water purification systems", "Developed underwater homes"],
+            "correctAnswer": "Fished in rivers and seas"
         },
         {
-            "text": "What is the role of observation in scientific inquiry?",
-            "choices": ["To avoid making hypotheses", "To begin the process of scientific study", "To complicate the study", "To make assumptions"],
-            "correctAnswer": "To begin the process of scientific study"
+            "text": "Which water bodies did Ancient Chinese fish in?",
+            "choices": ["Rivers and seas", "Lakes and ponds", "Wells and springs", "Canals and irrigation ditches"],
+            "correctAnswer": "Rivers and seas"
         },
         {
-            "text": "Which of the following is an example of qualitative data?",
-            "choices": ["Measurements in a table", "Descriptions of chimpanzee behavior", "Graphs", "Recorded measurements"],
-            "correctAnswer": "Descriptions of chimpanzee behavior"
+            "text": "What adaptation helped Ancient Chinese utilize aquatic food sources?",
+            "choices": ["Fishing", "Farming", "Mining", "Hunting"],
+            "correctAnswer": "Fishing"
         },
         {
-            "text": "Which of the following is an example of quantitative data?",
-            "choices": ["Descriptions of color", "Observations of animal behavior", "Recorded measurements in a graph", "Personal opinions"],
-            "correctAnswer": "Recorded measurements in a graph"
+            "text": "What extraction activity did Ancient Chinese engage in?",
+            "choices": ["Mining natural resources", "Drilling for oil", "Quarrying limestone", "Harvesting coral"],
+            "correctAnswer": "Mining natural resources"
         },
         {
-            "text": "Why is it impossible to conclusively prove a hypothesis to be true?",
-            "choices": ["Because we can test all alternatives", "Because a hypothesis is always true", "Because we can never test all the alternatives", "Because testing is unnecessary"],
-            "correctAnswer": "Because we can never test all the alternatives"
+            "text": "What adaptation allowed Ancient Chinese to access underground materials?",
+            "choices": ["Mining", "Irrigation", "Terracing", "Deforestation"],
+            "correctAnswer": "Mining"
         },
         {
-            "text": "What does experimental design involve?",
-            "choices": ["Random guessing", "Careful planning to eliminate bias and control variables", "Ignoring previous studies", "Uncontrolled experiments"],
-            "correctAnswer": "Careful planning to eliminate bias and control variables"
+            "text": "Which of the following was NOT a primary adaptation of Ancient China?",
+            "choices": ["Building underwater cities", "Farming in fertile soil", "Fishing in rivers and seas", "Mining natural resources"],
+            "correctAnswer": "Building underwater cities"
         },
         {
-            "text": "What role do past studies play in the scientific process?",
-            "choices": ["They are irrelevant", "Scientists can build on the foundations of existing knowledge", "Scientists should ignore them", "They confuse current research"],
-            "correctAnswer": "Scientists can build on the foundations of existing knowledge"
+            "text": "What form did Ancient Chinese written language take?",
+            "choices": ["Characters and symbols", "Alphabet", "Hieroglyphics", "Cuneiform"],
+            "correctAnswer": "Characters and symbols"
         },
-		{
-            "text": "What is a chemical compound?",
-            "choices": ["A substance consisting of one element", "A substance consisting of two or more elements in a fixed ratio", "A mixture of different elements", "An element that cannot be broken down"],
-            "correctAnswer": "A substance consisting of two or more elements in a fixed ratio"
-        },
-        {
-            "text": "What is an element?",
-            "choices": ["A substance that can be broken down chemically", "A substance consisting of multiple compounds", "A substance that cannot be broken down to other substances by chemical reactions", "A mixture of different substances"],
-            "correctAnswer": "A substance that cannot be broken down to other substances by chemical reactions"
-        },
-        {
-            "text": "Which of the following is the smallest unit of matter that retains the properties of an element?",
-            "choices": ["Molecule", "Compound", "Atom", "Electron"],
-            "correctAnswer": "Atom"
-        },
-        {
-            "text": "What are the three subatomic particles that make up an atom?",
-            "choices": ["Ions, isotopes, and molecules", "Protons, neutrons, and electrons", "Acids, bases, and salts", "Anions, cations, and radicals"],
-            "correctAnswer": "Protons, neutrons, and electrons"
-        },
-        {
-            "text": "What is the atomic number of an element?",
-            "choices": ["The sum of protons and neutrons in the nucleus", "The number of neutrons in the nucleus", "The number of protons in the nucleus", "The number of electrons in the outer shell"],
-            "correctAnswer": "The number of protons in the nucleus"
-        },
-        {
-            "text": "What is the mass number of an atom?",
-            "choices": ["The number of electrons in the atom", "The number of protons in the atom", "The sum of protons and neutrons in the nucleus", "The average of all isotopes of an element"],
-            "correctAnswer": "The sum of protons and neutrons in the nucleus"
-        },
-        {
-            "text": "What are isotopes?",
-            "choices": ["Atoms with the same number of neutrons but different numbers of protons", "Atoms with the same number of protons but different numbers of electrons", "Atoms with the same number of protons but different numbers of neutrons", "Atoms with different chemical properties"],
-            "correctAnswer": "Atoms with the same number of protons but different numbers of neutrons"
-        },
-        {
-            "text": "What are valence electrons?",
-            "choices": ["Electrons in the innermost shell", "Electrons in the nucleus", "Electrons that occupy the valence shell", "Electrons not involved in chemical bonding"],
-            "correctAnswer": "Electrons that occupy the valence shell"
-        },
-        {
-            "text": "What determines the chemical behavior of an atom?",
-            "choices": ["The number of neutrons", "The number of protons", "The number of electrons in its outermost shell", "The size of the nucleus"],
-            "correctAnswer": "The number of electrons in its outermost shell"
-        },
-        {
-            "text": "What is a covalent bond?",
-            "choices": ["The transfer of electrons between atoms", "The sharing of a pair of valence electrons by two atoms", "An attraction between ions of opposite charge", "A weak attraction between molecules"],
-            "correctAnswer": "The sharing of a pair of valence electrons by two atoms"
-        },
-        {
-            "text": "What is electronegativity?",
-            "choices": ["An atom's ability to repel electrons", "An atom's attraction for the electrons of a covalent bond", "The number of valence electrons in an atom", "The energy required to break a chemical bond"],
-            "correctAnswer": "An atom's attraction for the electrons of a covalent bond"
-        },
-        {
-            "text": "In a nonpolar covalent bond, how are electrons shared?",
-            "choices": ["Unequally", "Not shared", "Equally", "Transferred completely"],
-            "correctAnswer": "Equally"
-        },
-        {
-            "text": "In a polar covalent bond, how are electrons shared?",
-            "choices": ["Equally", "Transferred completely", "Unequally", "Not shared"],
-            "correctAnswer": "Unequally"
-        },
-        {
-            "text": "What is an ion?",
-            "choices": ["An atom with no charge", "A molecule with a covalent bond", "An atom or molecule with an electrical charge due to the loss or gain of electrons", "A molecule with shared electrons"],
-            "correctAnswer": "An atom or molecule with an electrical charge due to the loss or gain of electrons"
-        },
-        {
-            "text": "What is an ionic bond?",
-            "choices": ["The sharing of electrons between atoms", "A weak attraction between molecules", "The attraction between an anion and a cation", "A bond formed by shared hydrogen atoms"],
-            "correctAnswer": "The attraction between an anion and a cation"
-        },
-        {
-            "text": "What is a cation?",
-            "choices": ["A negatively charged ion", "A positively charged ion", "A neutral atom", "A molecule with no charge"],
-            "correctAnswer": "A positively charged ion"
-        },
-        {
-            "text": "What is an anion?",
-            "choices": ["A positively charged ion", "A neutral atom", "A negatively charged ion", "A molecule with no charge"],
-            "correctAnswer": "A negatively charged ion"
-        },
-        {
-            "text": "What is a hydrogen bond?",
-            "choices": ["A bond between hydrogen atoms", "A bond between hydrogen and carbon atoms", "A bond that forms when a hydrogen atom covalently bonded to one electronegative atom is attracted to another electronegative atom nearby", "A strong bond formed by shared electrons"],
-            "correctAnswer": "A bond that forms when a hydrogen atom covalently bonded to one electronegative atom is attracted to another electronegative atom nearby"
-        },
-        {
-            "text": "What are chemical reactions?",
-            "choices": ["The mixing of different elements", "The creation of new elements", "The making and breaking of chemical bonds", "The dissolving of substances in water"],
-            "correctAnswer": "The making and breaking of chemical bonds"
-        },
-        {
-            "text": "What are reactants in a chemical reaction?",
-            "choices": ["The final molecules of a reaction", "The molecules that speed up a reaction", "The starting molecules of a chemical reaction", "The waste products of a reaction"],
-            "correctAnswer": "The starting molecules of a chemical reaction"
-        },
-		{
-            "text": "Why is understanding the chemical characteristics of water central to biology?",
-            "choices": ["Because water is a minor component of living organisms", "Because water is a versatile solvent", "Because basic concepts of physics do not apply to the study of life", "Because biology is not interdisciplinary"],
-            "correctAnswer": "Because water is a versatile solvent"
-        },
-        {
-            "text": "What kind of molecule is water?",
-            "choices": ["Nonpolar", "Ionic", "Polar", "Hydrophobic"],
-            "correctAnswer": "Polar"
-        },
-        {
-            "text": "What kind of charge does the oxygen region of a water molecule have?",
-            "choices": ["Partial positive", "Full positive", "Neutral", "Partial negative"],
-            "correctAnswer": "Partial negative"
-        },
-        {
-            "text": "What kind of charge does the hydrogen region of a water molecule have?",
-            "choices": ["Partial negative", "Full negative", "Neutral", "Partial positive"],
-            "correctAnswer": "Partial positive"
-        },
-        {
-            "text": "What type of bond holds two water molecules together?",
-            "choices": ["Covalent bond", "Ionic bond", "Hydrogen bond", "Nonpolar bond"],
-            "correctAnswer": "Hydrogen bond"
-        },
-        {
-            "text": "What are the four emergent properties of water that contribute to Earth's suitability for life?",
-            "choices": ["Cohesive behavior, ability to moderate temperature, expansion upon freezing, and versatility as a solvent", "High density, low specific heat, transparency, and acidity", "Flammability, toxicity, radioactivity, and high viscosity", "Inertness, non-polarity, and inability to dissolve salts"],
-            "correctAnswer": "Cohesive behavior, ability to moderate temperature, expansion upon freezing, and versatility as a solvent"
-        },
-        {
-            "text": "What is cohesion in the context of water molecules?",
-            "choices": ["The dissolving of other substances", "The breaking of hydrogen bonds", "The linking of multiple water molecules by hydrogen bonds", "The repulsion between water molecules"],
-            "correctAnswer": "The linking of multiple water molecules by hydrogen bonds"
-        },
-        {
-            "text": "What is adhesion in the context of water molecules?",
-            "choices": ["The clinging of one substance to another", "The dissolving of other substances", "The breaking of hydrogen bonds", "The linking of multiple water molecules by hydrogen bonds"],
-            "correctAnswer": "The clinging of one substance to another"
-        },
         {
-            "text": "How does cohesion due to hydrogen bonding contribute to the transport of water in plants?",
-            "choices": ["By decreasing the surface tension", "By preventing adhesion", "By helping to transport water and nutrients against gravity", "By dissolving minerals in the soil"],
-            "correctAnswer": "By helping to transport water and nutrients against gravity"
+            "text": "What did Ancient China contribute to communication?",
+            "choices": ["Written language", "Morse code", "Sign language", "Braille"],
+            "correctAnswer": "Written language"
         },
         {
-            "text": "What is surface tension?",
-            "choices": ["A measure of the average speed of water molecules", "The force of attraction between water and air", "A measure of how hard it is to break the surface of a liquid", "The pressure exerted by water on its container"],
-            "correctAnswer": "A measure of how hard it is to break the surface of a liquid"
+            "text": "Which civilization developed a writing system using characters and symbols?",
+            "choices": ["Ancient China", "Ancient Greece", "Ancient Rome", "Ancient Egypt"],
+            "correctAnswer": "Ancient China"
         },
         {
-            "text": "How does water moderate temperature?",
-            "choices": ["By easily changing its temperature", "By absorbing heat from warmer air and releasing stored heat to cooler air", "By conducting heat away from organisms", "By preventing evaporation"],
-            "correctAnswer": "By absorbing heat from warmer air and releasing stored heat to cooler air"
+            "text": "Which of these was NOT invented in Ancient China?",
+            "choices": ["Telephone", "Kite", "Compass", "Silk cloth"],
+            "correctAnswer": "Telephone"
         },
         {
-            "text": "What is specific heat?",
-            "choices": ["The heat required to melt a substance", "The energy released when a substance freezes", "The amount of heat that must be absorbed or lost for 1 g of a substance to change its temperature by 1°C", "The heat required to boil a substance"],
-            "correctAnswer": "The amount of heat that must be absorbed or lost for 1 g of a substance to change its temperature by 1°C"
+            "text": "What invention helped sailors navigate?",
+            "choices": ["Compass", "Kite", "Fireworks", "Silk cloth"],
+            "correctAnswer": "Compass"
         },
         {
-            "text": "What is the specific heat of water?",
-            "choices": ["0 cal/(g·°C)", "1 cal/(g·°C)", "10 cal/(g·°C)", "100 cal/(g·°C)"],
-            "correctAnswer": "1 cal/(g·°C)"
+            "text": "What textile invention came from Ancient China?",
+            "choices": ["Silk cloth", "Cotton fabric", "Wool blankets", "Linen sheets"],
+            "correctAnswer": "Silk cloth"
         },
         {
-            "text": "Why does water resist changing its temperature?",
-            "choices": ["Because of its low density", "Because of its high specific heat", "Because it does not absorb heat", "Because it is not affected by temperature"],
-            "correctAnswer": "Because of its high specific heat"
+            "text": "What famous architectural structure did Ancient China build?",
+            "choices": ["Great Wall of China", "Pyramids", "Parthenon", "Colosseum"],
+            "correctAnswer": "Great Wall of China"
         },
         {
-            "text": "What happens to hydrogen bonds when water is heated?",
-            "choices": ["Hydrogen bonds form", "Hydrogen bonds strengthen", "Hydrogen bonds break", "Hydrogen bonds are unaffected"],
-            "correctAnswer": "Hydrogen bonds break"
+            "text": "Why was the Great Wall of China built?",
+            "choices": ["For protection against invaders", "For religious ceremonies", "For water transport", "For astronomical observations"],
+            "correctAnswer": "For protection against invaders"
         },
         {
-            "text": "What is heat of vaporization?",
-            "choices": ["The energy released when a liquid freezes", "The heat a liquid must absorb for 1 g to be converted to gas", "The energy required to melt a solid", "The heat released when a gas condenses"],
-            "correctAnswer": "The heat a liquid must absorb for 1 g to be converted to gas"
+            "text": "Which architectural achievement is associated with Ancient China?",
+            "choices": ["Great Wall", "Hanging Gardens", "Taj Mahal", "Stonehenge"],
+            "correctAnswer": "Great Wall"
         },
         {
-            "text": "What is evaporative cooling?",
-            "choices": ["The process by which a liquid heats up as it evaporates", "The process by which a liquid's remaining surface cools as it evaporates", "The process by which a solid turns directly into a gas", "The process by which a gas turns into a liquid"],
-            "correctAnswer": "The process by which a liquid's remaining surface cools as it evaporates"
+            "text": "What occurs when people focus on producing selected goods and services?",
+            "choices": ["Specialization", "Bartering", "Taxation", "Inflation"],
+            "correctAnswer": "Specialization"
         },
         {
-            "text": "Why does ice float on liquid water?",
-            "choices": ["Because ice is denser than water", "Because hydrogen bonds in ice are more 'ordered,' making ice less dense", "Because ice is warmer than water", "Because ice has no hydrogen bonds"],
-            "correctAnswer": "Because hydrogen bonds in ice are more 'ordered,' making ice less dense"
+            "text": "What did specialization encourage in Ancient China?",
+            "choices": ["Trade", "Isolation", "War", "Monarchy"],
+            "correctAnswer": "Trade"
         },
         {
-            "text": "What is a solution?",
-            "choices": ["A substance that cannot be dissolved", "A liquid that is a homogeneous mixture of substances", "A mixture of different elements", "A substance consisting of one element"],
-            "correctAnswer": "A liquid that is a homogeneous mixture of substances"
+            "text": "How did specialization help Ancient Chinese civilization?",
+            "choices": ["It helped grow the civilization", "It prevented foreign invasion", "It eliminated disease", "It created equality"],
+            "correctAnswer": "It helped grow the civilization"
         },
         {
-            "text": "What is a hydrophobic substance?",
-            "choices": ["A substance that has an affinity for water", "A substance that easily dissolves in water", "A substance that does not have an affinity for water", "A substance that is ionic and polar"],
-            "correctAnswer": "A substance that does not have an affinity for water"
+            "text": "What famous trade route originated in Ancient China?",
+            "choices": ["Silk Road", "Spice Route", "Tea Trail", "Jade Path"],
+            "correctAnswer": "Silk Road"
         },
-		{
-            "text": "What is the internal pH of most living cells?",
-            "choices": ["pH 2", "pH 5", "pH 7", "pH 10"],
-            "correctAnswer": "pH 7"
-        },
-        {
-            "text": "What are buffers?",
-            "choices": ["Substances that increase the concentration of H+ in a solution", "Substances that minimize changes in concentrations of H+ and OH- in a solution", "Substances that have no effect on pH", "Strong acids that completely dissociate in water"],
-            "correctAnswer": "Substances that minimize changes in concentrations of H+ and OH- in a solution"
-        },
-        {
-            "text": "What do most buffer solutions contain?",
-            "choices": ["A strong acid and a strong base", "A weak acid and a strong base", "A weak acid and its corresponding base", "Only water"],
-            "correctAnswer": "A weak acid and its corresponding base"
-        },
-        {
-            "text": "How do buffer solutions minimize changes in pH?",
-            "choices": ["By neutralizing all acids", "By neutralizing all bases", "By combining reversibly with H+", "By permanently removing H+ and OH- from the solution"],
-            "correctAnswer": "By combining reversibly with H+"
-        },
-        {
-            "text": "Which of the following acts as a buffer that contributes to pH stability in human blood?",
-            "choices": ["Hydrochloric acid", "Sodium hydroxide", "Carbonic acid", "Ammonia"],
-            "correctAnswer": "Carbonic acid"
-        },
-        {
-            "text": "What happens when there is a rise in pH in the blood?",
-            "choices": ["Carbonic acid donates H+ ions", "Carbonic acid accepts H+ ions", "Bicarbonate ions are formed", "Hydrogen ions are released"],
-            "correctAnswer": "Bicarbonate ions are formed"
-        },
-        {
-            "text": "What happens when there is a drop in pH in the blood?",
-            "choices": ["Carbonic acid dissociates", "Carbonic acid is formed", "Bicarbonate ions donate H+ ions", "Hydrogen ions are removed"],
-            "correctAnswer": "Carbonic acid is formed"
-        },
-         {
-            "text": "What is the pH of a neutral solution?",
-            "choices": ["2", "5", "7", "10"],
-            "correctAnswer": "7"
-        },
-        {
-            "text": "What is the pH of an acidic solution?",
-            "choices": ["Less than 7", "Equal to 7", "Greater than 7", "Equal to 14"],
-            "correctAnswer": "Less than 7"
-        },
-        {
-            "text": "What is the pH of a basic solution?",
-            "choices": ["Less than 7", "Equal to 7", "Greater than 7", "Equal to 0"],
-            "correctAnswer": "Greater than 7"
-        },
-        {
-            "text": "What is the effect of acids on the H+ concentration in water?",
-            "choices": ["Acids decrease the H+ concentration", "Acids increase the H+ concentration", "Acids have no effect on the H+ concentration", "Acids neutralize OH- ions only"],
-            "correctAnswer": "Acids increase the H+ concentration"
-        },
-        {
-            "text": "What is the effect of bases on the H+ concentration in water?",
-            "choices": ["Bases increase the H+ concentration", "Bases reduce the H+ concentration", "Bases have no effect on the H+ concentration", "Bases neutralize H+ ions by producing more H+ ions"],
-            "correctAnswer": "Bases reduce the H+ concentration"
-        },
-        {
-            "text": "Which of the following is true about strong acids?",
-            "choices": ["They dissociate partially in water", "They dissociate completely in water", "They do not dissociate in water", "They have a high pH"],
-            "correctAnswer": "They dissociate completely in water"
-        },
-        {
-            "text": "Which of the following is true about strong bases?",
-            "choices": ["They dissociate partially to form hydroxide ions", "They do not dissociate in water", "They dissociate completely to form hydroxide ions", "They increase the concentration of H+ ions"],
-            "correctAnswer": "They dissociate completely to form hydroxide ions"
-        },
-        {
-            "text": "What is the role of hydroxide ions (OH-) in a basic solution?",
-            "choices": ["Increase the H+ concentration", "Combine with H+ ions to form water", "Have no effect on H+ concentration", "Neutralize acids only"],
-            "correctAnswer": "Combine with H+ ions to form water"
-        },
-        {
-            "text": "What is the pH range of most biological fluids?",
-            "choices": ["1 to 3", "3 to 5", "6 to 8", "9 to 11"],
-            "correctAnswer": "6 to 8"
-        },
-        {
-            "text": "How does human activity threaten water quality?",
-            "choices": ["By increasing the pH of water", "By decreasing the pH of water", "By having no impact on pH", "By neutralizing all acids and bases"],
-            "correctAnswer": "By decreasing the pH of water"
-        },
-        {
-            "text": "What is ocean acidification?",
-            "choices": ["The increase in ocean pH due to CO2 absorption", "The decrease in ocean pH due to CO2 absorption", "The neutralization of ocean pH", "The increase in ocean salinity"],
-            "correctAnswer": "The decrease in ocean pH due to CO2 absorption"
-        },
-        {
-            "text": "Why is ocean acidification a concern?",
-            "choices": ["Because it benefits organisms that build coral reefs", "Because it increases the availability of carbonate ions", "Because it harms organisms that require carbonate ions", "Because it has no effect on marine life"],
-            "correctAnswer": "Because it harms organisms that require carbonate ions"
-        },
-        {
-            "text": "What happens to carbonate ions as seawater acidifies?",
-            "choices": ["They increase in concentration", "They combine with hydrogen ions to form bicarbonate ions", "They remain unchanged", "They are neutralized"],
-            "correctAnswer": "They combine with hydrogen ions to form bicarbonate ions"
-        },
-		{
-            "text": "What element are living organisms primarily made of?",
-            "choices": ["Oxygen", "Carbon", "Nitrogen", "Hydrogen"],
-            "correctAnswer": "Carbon"
-        },
-        {
-            "text": "What is a compound containing carbon called?",
-            "choices": ["Inorganic compound", "Organic compound", "Ionic compound", "Metallic compound"],
-            "correctAnswer": "Organic compound"
-        },
-        {
-            "text": "What are the four main classes of organic molecules that are critically important to living things?",
-            "choices": ["Carbohydrates, Lipids, Proteins, Water", "Carbohydrates, Lipids, Proteins, Nucleic Acids", "Salts, Lipids, Proteins, Nucleic Acids", "Carbohydrates, Minerals, Proteins, Nucleic Acids"],
-            "correctAnswer": "Carbohydrates, Lipids, Proteins, Nucleic Acids"
-        },
-        {
-            "text": "What is a large molecule consisting of many similar building blocks called?",
-            "choices": ["Monomer", "Polymer", "Isomer", "Molecule"],
-            "correctAnswer": "Polymer"
-        },
-        {
-            "text": "What are the small building-block molecules that make up polymers called?",
-            "choices": ["Polymers", "Monomers", "Isomers", "Atoms"],
-            "correctAnswer": "Monomers"
-        },
         {
-            "text": "What process do cells use to make polymers from monomers, involving the loss of a water molecule?",
-            "choices": ["Hydrolysis", "Dehydration reaction", "Oxidation", "Reduction"],
-            "correctAnswer": "Dehydration reaction"
+            "text": "Why did people in Ancient China engage in trade?",
+            "choices": ["When individuals or groups benefited from it", "When forced by the government", "When crops failed", "When religious leaders ordered it"],
+            "correctAnswer": "When individuals or groups benefited from it"
         },
         {
-            "text": "What process do cells use to break down polymers into monomers by adding a water molecule?",
-            "choices": ["Dehydration reaction", "Hydrolysis", "Polymerization", "Condensation"],
-            "correctAnswer": "Hydrolysis"
+            "text": "How far did trade from Ancient China spread?",
+            "choices": ["Throughout Asia and into Europe", "Only within China", "Only to neighboring countries", "Worldwide"],
+            "correctAnswer": "Throughout Asia and into Europe"
         },
         {
-            "text": "What class of organic molecules includes sugars and polymers of sugars?",
-            "choices": ["Lipids", "Proteins", "Carbohydrates", "Nucleic Acids"],
-            "correctAnswer": "Carbohydrates"
+            "text": "What are materials that come directly from nature called?",
+            "choices": ["Natural resources", "Human resources", "Capital resources", "Renewable resources"],
+            "correctAnswer": "Natural resources"
         },
         {
-            "text": "What are the simplest carbohydrates called?",
-            "choices": ["Polysaccharides", "Disaccharides", "Monosaccharides", "Oligosaccharides"],
-            "correctAnswer": "Monosaccharides"
+            "text": "What term describes people working to produce goods and services?",
+            "choices": ["Human resources", "Natural resources", "Capital resources", "Labor force"],
+            "correctAnswer": "Human resources"
         },
         {
-            "text": "What type of bond is formed when a dehydration reaction joins two monosaccharides?",
-            "choices": ["Hydrogen bond", "Ionic bond", "Glycosidic linkage", "Peptide bond"],
-            "correctAnswer": "Glycosidic linkage"
+            "text": "What are goods made by people and used to produce other goods called?",
+            "choices": ["Capital resources", "Natural resources", "Human resources", "Economic resources"],
+            "correctAnswer": "Capital resources"
         },
         {
-            "text": "What are carbohydrate macromolecules, polymers composed of many sugar building blocks, called?",
-            "choices": ["Monosaccharides", "Disaccharides", "Polysaccharides", "Oligosaccharides"],
-            "correctAnswer": "Polysaccharides"
+            "text": "What is an economic choice?",
+            "choices": ["The choice to buy one good over others", "The choice to save all your money", "The choice to work overtime", "The choice to pay taxes"],
+            "correctAnswer": "The choice to buy one good over others"
         },
         {
-            "text": "Which polysaccharide is a major component of the tough walls that enclose plant cells?",
-            "choices": ["Starch", "Glycogen", "Cellulose", "Chitin"],
-            "correctAnswer": "Cellulose"
+            "text": "What term describes the next best choice given up when making an economic choice?",
+            "choices": ["Opportunity cost", "Economic choice", "Supply and demand", "Trade deficit"],
+            "correctAnswer": "Opportunity cost"
         },
         {
-            "text": "What are fats constructed from?",
-            "choices": ["Monosaccharides and polysaccharides", "Amino acids", "Glycerol and fatty acids", "Nucleotides"],
-            "correctAnswer": "Glycerol and fatty acids"
-        },
-        {
-            "text": "What smaller molecules are phospholipids composed of?",
-            "choices": ["Two fatty acids and a phosphate group attached to glycerol", "Three fatty acids attached to glycerol", "Amino acids", "Monosaccharides"],
-            "correctAnswer": "Two fatty acids and a phosphate group attached to glycerol"
-        },
-        {
-            "text": "What are the major constituents of cell membranes?",
-            "choices": ["Fats", "Proteins", "Phospholipids", "Carbohydrates"],
-            "correctAnswer": "Phospholipids"
-        },
-        {
-            "text": "What functions do proteins perform?",
-            "choices": ["Defense, storage, transport, and cellular communication", "Movement and structural support", "Act as catalysts to speed up chemical reactions", "All of the above"],
-            "correctAnswer": "All of the above"
-        },
-         {
-            "text": "What are the monomers that build polypeptides?",
-            "choices": ["Monosaccharides", "Fatty acids", "Amino acids", "Nucleotides"],
-            "correctAnswer": "Amino acids"
+            "text": "In economic terms, what do you give up when making a choice?",
+            "choices": ["Opportunity cost", "Capital gains", "Labor value", "Resource allocation"],
+            "correctAnswer": "Opportunity cost"
         },
         {
-            "text": "What type of bond links amino acids to form a polypeptide?",
-            "choices": ["Glycosidic linkage", "Hydrogen bond", "Peptide bond", "Ionic bond"],
-            "correctAnswer": "Peptide bond"
+            "text": "What factors must be compared in economic decision-making?",
+            "choices": ["Opportunity cost, monetary cost, and benefits", "Supply and demand", "Imports and exports", "Taxes and subsidies"],
+            "correctAnswer": "Opportunity cost, monetary cost, and benefits"
         },
         {
-            "text": "What programs the amino acid sequence of a polypeptide?",
-            "choices": ["Lipids", "Genes", "Carbohydrates", "ATP"],
-            "correctAnswer": "Genes"
+            "text": "What must be weighed against benefits when making economic decisions?",
+            "choices": ["Both opportunity cost and monetary cost", "Only monetary cost", "Only opportunity cost", "Neither cost type"],
+            "correctAnswer": "Both opportunity cost and monetary cost"
         },
         {
-            "text": "What are genes made of?",
-            "choices": ["Proteins", "Lipids", "DNA", "Carbohydrates"],
-            "correctAnswer": "DNA"
+            "text": "What is required for effective economic decision-making?",
+            "choices": ["Comparing costs with benefits", "Maximizing profits", "Minimizing expenses", "Increasing revenue"],
+            "correctAnswer": "Comparing costs with benefits"
         }
     ]
 }
