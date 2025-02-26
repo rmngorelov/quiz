@@ -1,244 +1,249 @@
 {
-    "questions": [
-        {
-            "text": "Where is Ancient China located?",
-            "choices": ["Eastern Asia", "Western Europe", "Southern Africa", "Northern America"],
-            "correctAnswer": "Eastern Asia"
-        },
-        {
-            "text": "Which ocean borders China to the east?",
-            "choices": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
-            "correctAnswer": "Pacific Ocean"
-        },
-        {
-            "text": "Which modern region did Ancient China eventually spread to in the west?",
-            "choices": ["Central Asia's deserts", "Mediterranean coast", "Siberian plains", "Middle Eastern valleys"],
-            "correctAnswer": "Central Asia's deserts"
-        },
-        {
-            "text": "Where did Chinese civilization first begin?",
-            "choices": ["Along the Huang He River", "Along the Yangtze River", "In the Gobi Desert", "In the Himalayan Mountains"],
-            "correctAnswer": "Along the Huang He River"
-        },
-        {
-            "text": "In which direction did Ancient China spread from the Huang He River?",
-            "choices": ["Southward", "Northward", "Eastward", "Westward"],
-            "correctAnswer": "Southward"
-        },
-        {
-            "text": "Which river did Chinese civilization spread to after the Huang He River?",
-            "choices": ["Yangtze River", "Yellow River", "Mekong River", "Pearl River"],
-            "correctAnswer": "Yangtze River"
-        },
-        {
-            "text": "Which of these is NOT a major geographic feature in or surrounding China?",
-            "choices": ["Sahara Desert", "Huang He River", "Yangtze River", "Himalayas Mountains"],
-            "correctAnswer": "Sahara Desert"
-        },
-        {
-            "text": "Which mountain range is found in China?",
-            "choices": ["Himalayas", "Alps", "Andes", "Rocky Mountains"],
-            "correctAnswer": "Himalayas"
-        },
-        {
-            "text": "What desert is found in northern China?",
-            "choices": ["Gobi Desert", "Sahara Desert", "Arabian Desert", "Kalahari Desert"],
-            "correctAnswer": "Gobi Desert"
-        },
-        {
-            "text": "How many seasons does China have?",
-            "choices": ["4", "2", "3", "5"],
-            "correctAnswer": "4"
-        },
-        {
-            "text": "Which season is NOT experienced in China's climate?",
-            "choices": ["Monsoon season", "Winter", "Spring", "Summer"],
-            "correctAnswer": "Monsoon season"
-        },
-        {
-            "text": "Which seasons make up China's climate cycle?",
-            "choices": ["Winter, spring, summer, and fall", "Wet and dry", "Hot, warm, cool, and cold", "Monsoon and drought"],
-            "correctAnswer": "Winter, spring, summer, and fall"
-        },
-        {
-            "text": "Which is NOT a geographical feature found in China?",
-            "choices": ["Fjords", "Mountains", "Deserts", "Forests"],
-            "correctAnswer": "Fjords"
-        },
-        {
-            "text": "Which landform creates natural barriers around parts of China?",
-            "choices": ["Mountains", "Rivers", "Forests", "Plains"],
-            "correctAnswer": "Mountains"
-        },
-        {
-            "text": "What geographic feature helped isolate China from other civilizations?",
-            "choices": ["Mountains and deserts", "Islands and oceans", "Lakes and rivers", "Plateaus and valleys"],
-            "correctAnswer": "Mountains and deserts"
-        },
-        {
-            "text": "Where did Ancient Chinese farmers primarily establish their farms?",
-            "choices": ["In fertile soil along rivers", "On mountain terraces", "In desert oases", "In cleared forest land"],
-            "correctAnswer": "In fertile soil along rivers"
-        },
-        {
-            "text": "What agricultural adaptation did Ancient Chinese make to their environment?",
-            "choices": ["Farming in fertile soil along rivers", "Building floating gardens", "Creating underground farms", "Developing vertical farming"],
-            "correctAnswer": "Farming in fertile soil along rivers"
-        },
-        {
-            "text": "Why did Ancient Chinese farmers settle near rivers?",
-            "choices": ["For fertile soil", "For transportation", "For protection", "For religious reasons"],
-            "correctAnswer": "For fertile soil"
-        },
-        {
-            "text": "How did Ancient Chinese adapt to water resources?",
-            "choices": ["Fished in rivers and seas", "Built dams and reservoirs", "Created water purification systems", "Developed underwater homes"],
-            "correctAnswer": "Fished in rivers and seas"
-        },
-        {
-            "text": "Which water bodies did Ancient Chinese fish in?",
-            "choices": ["Rivers and seas", "Lakes and ponds", "Wells and springs", "Canals and irrigation ditches"],
-            "correctAnswer": "Rivers and seas"
-        },
-        {
-            "text": "What adaptation helped Ancient Chinese utilize aquatic food sources?",
-            "choices": ["Fishing", "Farming", "Mining", "Hunting"],
-            "correctAnswer": "Fishing"
-        },
-        {
-            "text": "What extraction activity did Ancient Chinese engage in?",
-            "choices": ["Mining natural resources", "Drilling for oil", "Quarrying limestone", "Harvesting coral"],
-            "correctAnswer": "Mining natural resources"
-        },
-        {
-            "text": "What adaptation allowed Ancient Chinese to access underground materials?",
-            "choices": ["Mining", "Irrigation", "Terracing", "Deforestation"],
-            "correctAnswer": "Mining"
-        },
-        {
-            "text": "Which of the following was NOT a primary adaptation of Ancient China?",
-            "choices": ["Building underwater cities", "Farming in fertile soil", "Fishing in rivers and seas", "Mining natural resources"],
-            "correctAnswer": "Building underwater cities"
-        },
-        {
-            "text": "What form did Ancient Chinese written language take?",
-            "choices": ["Characters and symbols", "Alphabet", "Hieroglyphics", "Cuneiform"],
-            "correctAnswer": "Characters and symbols"
-        },
-        {
-            "text": "What did Ancient China contribute to communication?",
-            "choices": ["Written language", "Morse code", "Sign language", "Braille"],
-            "correctAnswer": "Written language"
-        },
-        {
-            "text": "Which civilization developed a writing system using characters and symbols?",
-            "choices": ["Ancient China", "Ancient Greece", "Ancient Rome", "Ancient Egypt"],
-            "correctAnswer": "Ancient China"
-        },
-        {
-            "text": "Which of these was NOT invented in Ancient China?",
-            "choices": ["Telephone", "Kite", "Compass", "Silk cloth"],
-            "correctAnswer": "Telephone"
-        },
-        {
-            "text": "What invention helped sailors navigate?",
-            "choices": ["Compass", "Kite", "Fireworks", "Silk cloth"],
-            "correctAnswer": "Compass"
-        },
-        {
-            "text": "What textile invention came from Ancient China?",
-            "choices": ["Silk cloth", "Cotton fabric", "Wool blankets", "Linen sheets"],
-            "correctAnswer": "Silk cloth"
-        },
-        {
-            "text": "What famous architectural structure did Ancient China build?",
-            "choices": ["Great Wall of China", "Pyramids", "Parthenon", "Colosseum"],
-            "correctAnswer": "Great Wall of China"
-        },
-        {
-            "text": "Why was the Great Wall of China built?",
-            "choices": ["For protection against invaders", "For religious ceremonies", "For water transport", "For astronomical observations"],
-            "correctAnswer": "For protection against invaders"
-        },
-        {
-            "text": "Which architectural achievement is associated with Ancient China?",
-            "choices": ["Great Wall", "Hanging Gardens", "Taj Mahal", "Stonehenge"],
-            "correctAnswer": "Great Wall"
-        },
-        {
-            "text": "What occurs when people focus on producing selected goods and services?",
-            "choices": ["Specialization", "Bartering", "Taxation", "Inflation"],
-            "correctAnswer": "Specialization"
-        },
-        {
-            "text": "What did specialization encourage in Ancient China?",
-            "choices": ["Trade", "Isolation", "War", "Monarchy"],
-            "correctAnswer": "Trade"
-        },
-        {
-            "text": "How did specialization help Ancient Chinese civilization?",
-            "choices": ["It helped grow the civilization", "It prevented foreign invasion", "It eliminated disease", "It created equality"],
-            "correctAnswer": "It helped grow the civilization"
-        },
-        {
-            "text": "What famous trade route originated in Ancient China?",
-            "choices": ["Silk Road", "Spice Route", "Tea Trail", "Jade Path"],
-            "correctAnswer": "Silk Road"
-        },
-        {
-            "text": "Why did people in Ancient China engage in trade?",
-            "choices": ["When individuals or groups benefited from it", "When forced by the government", "When crops failed", "When religious leaders ordered it"],
-            "correctAnswer": "When individuals or groups benefited from it"
-        },
-        {
-            "text": "How far did trade from Ancient China spread?",
-            "choices": ["Throughout Asia and into Europe", "Only within China", "Only to neighboring countries", "Worldwide"],
-            "correctAnswer": "Throughout Asia and into Europe"
-        },
-        {
-            "text": "What are materials that come directly from nature called?",
-            "choices": ["Natural resources", "Human resources", "Capital resources", "Renewable resources"],
-            "correctAnswer": "Natural resources"
-        },
-        {
-            "text": "What term describes people working to produce goods and services?",
-            "choices": ["Human resources", "Natural resources", "Capital resources", "Labor force"],
-            "correctAnswer": "Human resources"
-        },
-        {
-            "text": "What are goods made by people and used to produce other goods called?",
-            "choices": ["Capital resources", "Natural resources", "Human resources", "Economic resources"],
-            "correctAnswer": "Capital resources"
-        },
-        {
-            "text": "What is an economic choice?",
-            "choices": ["The choice to buy one good over others", "The choice to save all your money", "The choice to work overtime", "The choice to pay taxes"],
-            "correctAnswer": "The choice to buy one good over others"
-        },
-        {
-            "text": "What term describes the next best choice given up when making an economic choice?",
-            "choices": ["Opportunity cost", "Economic choice", "Supply and demand", "Trade deficit"],
-            "correctAnswer": "Opportunity cost"
-        },
-        {
-            "text": "In economic terms, what do you give up when making a choice?",
-            "choices": ["Opportunity cost", "Capital gains", "Labor value", "Resource allocation"],
-            "correctAnswer": "Opportunity cost"
-        },
-        {
-            "text": "What factors must be compared in economic decision-making?",
-            "choices": ["Opportunity cost, monetary cost, and benefits", "Supply and demand", "Imports and exports", "Taxes and subsidies"],
-            "correctAnswer": "Opportunity cost, monetary cost, and benefits"
-        },
-        {
-            "text": "What must be weighed against benefits when making economic decisions?",
-            "choices": ["Both opportunity cost and monetary cost", "Only monetary cost", "Only opportunity cost", "Neither cost type"],
-            "correctAnswer": "Both opportunity cost and monetary cost"
-        },
-        {
-            "text": "What is required for effective economic decision-making?",
-            "choices": ["Comparing costs with benefits", "Maximizing profits", "Minimizing expenses", "Increasing revenue"],
-            "correctAnswer": "Comparing costs with benefits"
-        }
-    ]
+  "questions": [
+    {
+      "text": "Where is China located?",
+      "choices": ["Western Asia", "Northern Asia", "Eastern Asia", "Southern Asia"],
+      "correctAnswer": "Eastern Asia"
+    },
+    {
+      "text": "Which river was central to the beginning of Ancient Chinese culture?",
+      "choices": ["Yangtze River", "Yellow River", "Huang He River", "Pearl River"],
+      "correctAnswer": "Huang He River"
+    },
+    {
+      "text": "How many seasons does China experience?",
+      "choices": ["2", "3", "4", "5"],
+      "correctAnswer": "4"
+    },
+    {
+      "text": "Which geographic features does China include?",
+      "choices": ["Only mountains and forests", "Only deserts and plains", "Mountains, hills, deserts, and forests", "Only rivers and lakes"],
+      "correctAnswer": "Mountains, hills, deserts, and forests"
+    },
+    {
+      "text": "Which direction did Ancient China spread after beginning along the Huang He River?",
+      "choices": ["Northward", "Eastward", "Southward", "Westward"],
+      "correctAnswer": "Southward"
+    },
+    {
+      "text": "During its period of great influence, Ancient China spread towards what region?",
+      "choices": ["Europe", "Africa", "Central Asia's deserts", "The Arctic"],
+      "correctAnswer": "Central Asia's deserts"
+    },
+    {
+      "text": "Which is NOT a geographic feature in or surrounding China?",
+      "choices": ["Huang He River", "Himalayas Mountains", "Gobi Desert", "Sahara Desert"],
+      "correctAnswer": "Sahara Desert"
+    },
+    {
+      "text": "What ocean borders China?",
+      "choices": ["Atlantic Ocean", "Arctic Ocean", "Indian Ocean", "Pacific Ocean"],
+      "correctAnswer": "Pacific Ocean"
+    },
+    {
+      "text": "How did Ancient China adapt to its environment along rivers?",
+      "choices": ["Built large cities", "Farmed in fertile soil", "Created dams", "Avoided the rivers"],
+      "correctAnswer": "Farmed in fertile soil"
+    },
+    {
+      "text": "Which was NOT a way Ancient China adapted to its environment?",
+      "choices": ["Farming", "Fishing", "Mining", "Hunting dinosaurs"],
+      "correctAnswer": "Hunting dinosaurs"
+    },
+    {
+      "text": "What term refers to the design of buildings?",
+      "choices": ["Ancient", "Architecture", "Contribution", "Geography"],
+      "correctAnswer": "Architecture"
+    },
+    {
+      "text": "What is a contribution?",
+      "choices": ["A large building", "A type of resource", "The act of giving or doing something", "A geographic feature"],
+      "correctAnswer": "The act of giving or doing something"
+    },
+    {
+      "text": "What does the term 'ancient' mean?",
+      "choices": ["New", "Current", "Long, long ago", "Far away"],
+      "correctAnswer": "Long, long ago"
+    },
+    {
+      "text": "Which is NOT listed as a Chinese invention?",
+      "choices": ["Kite", "Compass", "Fireworks", "Telephone"],
+      "correctAnswer": "Telephone"
+    },
+    {
+      "text": "What significant architectural contribution is mentioned from Ancient China?",
+      "choices": ["Pyramids", "Great Wall of China", "Colosseum", "Taj Mahal"],
+      "correctAnswer": "Great Wall of China"
+    },
+    {
+      "text": "What was the written language contribution of Ancient China characterized by?",
+      "choices": ["Letters", "Numbers", "Characters and symbols", "Hieroglyphics"],
+      "correctAnswer": "Characters and symbols"
+    },
+    {
+      "text": "What occurs when people focus on the production of selected goods and services?",
+      "choices": ["Globalization", "Specialization", "Industrialization", "Generalization"],
+      "correctAnswer": "Specialization"
+    },
+    {
+      "text": "What was the famous trade route that connected Ancient China to Europe?",
+      "choices": ["Spice Route", "Tea Road", "Silk Road", "Jade Path"],
+      "correctAnswer": "Silk Road"
+    },
+    {
+      "text": "What does specialization encourage according to the study guide?",
+      "choices": ["Isolation", "Trade and civilization growth", "Conflict", "Environmental damage"],
+      "correctAnswer": "Trade and civilization growth"
+    },
+    {
+      "text": "What is trade?",
+      "choices": ["Making goods", "The buying and selling of goods and services", "Mining resources", "Building cities"],
+      "correctAnswer": "The buying and selling of goods and services"
+    },
+    {
+      "text": "When does trade occur according to the study guide?",
+      "choices": ["When governments force it", "When individuals or groups benefit from it", "When resources are scarce", "When civilizations collapse"],
+      "correctAnswer": "When individuals or groups benefit from it"
+    },
+    {
+      "text": "What are natural resources?",
+      "choices": ["Materials that come directly from nature", "Goods made by people", "People working to produce goods", "Tools used in production"],
+      "correctAnswer": "Materials that come directly from nature"
+    },
+    {
+      "text": "What are human resources?",
+      "choices": ["Water and minerals", "Tools and equipment", "People working to produce goods and services", "Money and investments"],
+      "correctAnswer": "People working to produce goods and services"
+    },
+    {
+      "text": "What are capital resources?",
+      "choices": ["Money in the bank", "Natural landscapes", "Wild animals", "Goods made by people and used to produce other goods"],
+      "correctAnswer": "Goods made by people and used to produce other goods"
+    },
+    {
+      "text": "What is an economic choice?",
+      "choices": ["A decision about where to live", "The choice to buy one good over others", "A career decision", "A government policy"],
+      "correctAnswer": "The choice to buy one good over others"
+    },
+    {
+      "text": "What is opportunity cost?",
+      "choices": ["The monetary price of a good", "The time spent working", "The next best choice given up when an economic choice is made", "The cost of transportation"],
+      "correctAnswer": "The next best choice given up when an economic choice is made"
+    },
+    {
+      "text": "What must be compared when making economic decisions?",
+      "choices": ["Only benefits", "Only monetary costs", "Opportunity cost and monetary cost with benefits", "Only opportunity costs"],
+      "correctAnswer": "Opportunity cost and monetary cost with benefits"
+    },
+    {
+      "text": "Which is an example of a human resource in Ancient China?",
+      "choices": ["Water", "Paper", "Jade", "Artisan"],
+      "correctAnswer": "Artisan"
+    },
+    {
+      "text": "Which is an example of a capital resource in Ancient China?",
+      "choices": ["Merchant", "Rice", "Tools", "Gold"],
+      "correctAnswer": "Tools"
+    },
+    {
+      "text": "Which is an example of a natural resource in Ancient China?",
+      "choices": ["Farmer", "Umbrella", "Bamboo", "Basket"],
+      "correctAnswer": "Bamboo"
+    },
+    {
+      "text": "What textile product is mentioned as a Chinese invention?",
+      "choices": ["Cotton fabric", "Wool cloth", "Linen", "Silk cloth"],
+      "correctAnswer": "Silk cloth"
+    },
+    {
+      "text": "Which river did ancient Chinese civilization spread to after the Huang He?",
+      "choices": ["Mekong River", "Yellow River", "Yangtze River", "Pearl River"],
+      "correctAnswer": "Yangtze River"
+    },
+    {
+      "text": "Which mountains are mentioned as a geographic feature surrounding China?",
+      "choices": ["Alps", "Andes", "Rockies", "Himalayas"],
+      "correctAnswer": "Himalayas"
+    },
+    {
+      "text": "What desert is mentioned as a geographic feature of China?",
+      "choices": ["Sahara Desert", "Arabian Desert", "Gobi Desert", "Kalahari Desert"],
+      "correctAnswer": "Gobi Desert"
+    },
+    {
+      "text": "Which profession is NOT listed as a human resource example?",
+      "choices": ["Merchant", "Artisan", "Farmer", "Scholar"],
+      "correctAnswer": "Scholar"
+    },
+    {
+      "text": "Which item is NOT listed as a capital resource example?",
+      "choices": ["Paper", "Tools", "Fireworks", "Silk"],
+      "correctAnswer": "Silk"
+    },
+    {
+      "text": "Which item is NOT listed as a natural resource example?",
+      "choices": ["Water", "Jade", "Rice", "Paper"],
+      "correctAnswer": "Paper"
+    },
+    {
+      "text": "What main topics does the Ancient China assessment focus on?",
+      "choices": ["Art, Religion, Government, and Warfare", "Geography, Adaptations, Contributions, and Economics", "Language, Science, Mathematics, and Philosophy", "Family, Education, Medicine, and Technology"],
+      "correctAnswer": "Geography, Adaptations, Contributions, and Economics"
+    },
+    {
+      "text": "Where did Ancient Chinese civilization begin?",
+      "choices": ["Along the Yangtze River", "In the Gobi Desert", "Along the Huang He River", "In the Himalayan Mountains"],
+      "correctAnswer": "Along the Huang He River"
+    },
+    {
+      "text": "What navigational tool is listed as a Chinese invention?",
+      "choices": ["Astrolabe", "Sextant", "Compass", "GPS"],
+      "correctAnswer": "Compass"
+    },
+    {
+      "text": "Which celebratory item is listed as a Chinese invention?",
+      "choices": ["Balloons", "Candles", "Fireworks", "Party hats"],
+      "correctAnswer": "Fireworks"
+    },
+    {
+      "text": "Who would be considered a craftsman in Ancient China?",
+      "choices": ["Someone who grows rice", "Someone who catches fish", "Someone who makes pottery or tools", "Someone who sells goods"],
+      "correctAnswer": "Someone who makes pottery or tools"
+    },
+    {
+      "text": "What season is NOT experienced in China according to the study guide?",
+      "choices": ["Winter", "Spring", "Summer", "Monsoon"],
+      "correctAnswer": "Monsoon"
+    },
+    {
+      "text": "What is the definition of trade according to the study guide?",
+      "choices": ["Giving gifts", "Making products", "The buying and selling of goods and services", "Traveling to other countries"],
+      "correctAnswer": "The buying and selling of goods and services"
+    },
+    {
+      "text": "Which is TRUE about specialization in Ancient China?",
+      "choices": ["It discouraged trade", "It slowed civilization growth", "It caused people to become experts in certain goods and services", "It was forbidden by the government"],
+      "correctAnswer": "It caused people to become experts in certain goods and services"
+    },
+    {
+      "text": "What fishing environment is mentioned in the adaptations section?",
+      "choices": ["Lakes only", "Oceans only", "Rivers and seas", "Ponds only"],
+      "correctAnswer": "Rivers and seas"
+    },
+    {
+      "text": "When is the Ancient China assessment scheduled?",
+      "choices": ["Monday, February 24", "Wednesday, February 26", "Thursday, February 27", "Friday, February 28"],
+      "correctAnswer": "Friday, February 28"
+    },
+    {
+      "text": "How did Ancient Chinese people adapt to having natural resources?",
+      "choices": ["They ignored them", "They traded them all away", "They mined them", "They preserved them for future generations"],
+      "correctAnswer": "They mined them"
+    },
+    {
+      "text": "What characteristic of soil made it good for farming in Ancient China?",
+      "choices": ["Rocky", "Dry", "Acidic", "Fertile"],
+      "correctAnswer": "Fertile"
+    }
+  ]
 }
