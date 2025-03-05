@@ -30,6 +30,7 @@ class Quiz {
                 }
             }));
             
+            
             // Try to load saved state
             const savedState = await this.loadState();
             if (savedState) {

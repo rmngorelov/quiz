@@ -31,8 +31,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             progressText.textContent = `Challenge Progress: ${stats.completed}/${stats.total}`;
             masteryText.textContent = `Remaining: ${stats.remaining}`;
         } else {
-            progressText.textContent = `Question Progress: ${stats.masteredQuestions}/${stats.totalQuestions}`;
-            masteryText.textContent = `Mastered: ${Math.round((stats.masteredQuestions/stats.totalQuestions) * 100)}%`;
+            progressText.textContent = `Question Progress: ${stats.masteredQuestions}/${stats.totalQuestions - 1}`;
+            masteryText.textContent = `Mastered: ${Math.round((stats.masteredQuestions/(stats.totalQuestions - 1)) * 100)}%`;
         }
     }
 
@@ -124,9 +124,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         const stats = quiz.getSessionStats();
         if (!quiz.isInChallengeMode) {
             summaryStats.innerHTML = `
-                <p>Total Questions: ${stats.totalQuestions}</p>
+                <p>Total Questions: ${stats.totalQuestions - 1}</p>
                 <p>Questions Mastered: ${stats.masteredQuestions}</p>
-                <p>Mastery Rate: ${Math.round((stats.masteredQuestions/stats.totalQuestions) * 100)}%</p>
+                <p>Mastery Rate: ${Math.round((stats.masteredQuestions/(stats.totalQuestions - 1)) * 100)}%</p>
                 <p>Challenging Questions: ${stats.challengedQuestions}</p>
             `;
 
