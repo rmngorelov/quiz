@@ -1,6 +1,10 @@
 // app.js
 document.addEventListener('DOMContentLoaded', async () => {
     const quiz = new Quiz();
+    
+    // Check if we have a saved state before loading
+    const hasSavedState = localStorage.getItem(quiz.storageKey) != null;
+    
     await quiz.loadQuestions();
 
     const questionText = document.getElementById('question-text');
@@ -14,6 +18,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     const summaryStats = document.getElementById('summary-stats');
     const continueBtn = document.getElementById('continue-btn');
     const resetBtn = document.getElementById('reset-btn');
+    const clearDataBtn = document.getElementById('clear-data-btn');
+    
+    // Show clear data button if we restored from saved state
+    if (hasSavedState) {
+        clearDataBtn.style.display = 'block';
+    }
 
     function updateProgress() {
         const stats = quiz.getSessionStats();
@@ -51,6 +61,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         feedbackContainer.style.display = 'none';
         updateProgress();
+        
+        // Save state when displaying a question
+        quiz.saveState();
     }
 
     function handleAnswer(selectedAnswer) {
@@ -126,6 +139,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         quiz.resetSession();
         sessionSummary.style.display = 'none';
         displayQuestion();
+    });
+    
+    clearDataBtn.addEventListener('click', () => {
+        if (confirm('Are you sure you want to clear all saved progress? This cannot be undone.')) {
+            quiz.clearSavedState();
+            quiz.resetSession();
+            sessionSummary.style.display = 'none';
+            clearDataBtn.style.display = 'none';
+            displayQuestion();
+        }
     });
 
     displayQuestion();

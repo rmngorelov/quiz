@@ -10,6 +10,7 @@ class Quiz {
         this.challengeThreshold = 5;
         this.isInChallengeMode = false;
         this.challengeModeProgress = new Map(); // Maps questionId -> {remastered: boolean, streak: number}
+        this.storageKey = 'quizState';
     }
 
     async loadQuestions() {
@@ -28,11 +29,93 @@ class Quiz {
                     isChallenger: false
                 }
             }));
-            this.activeQuestions = [...this.questions];
+            
+            // Try to load saved state
+            const savedState = await this.loadState();
+            if (savedState) {
+                this.restoreState(savedState);
+            } else {
+                this.activeQuestions = [...this.questions];
+            }
         } catch (error) {
             console.error('Error loading questions:', error);
             // Alert the user about loading error
             alert('Failed to load questions. Please refresh the page.');
+        }
+    }
+    
+    saveState() {
+        // Convert Map to array for JSON serialization
+        const challengeModeProgressArray = Array.from(this.challengeModeProgress.entries())
+            .map(([key, value]) => ({ key, value }));
+            
+        const state = {
+            activeQuestionIds: this.activeQuestions.map(q => q.id),
+            masteredQuestionIds: this.masteredQuestions.map(q => q.id),
+            challengedQuestionIds: this.challengedQuestions.map(q => q.id),
+            currentQuestionId: this.currentQuestion?.id,
+            isInChallengeMode: this.isInChallengeMode,
+            challengeModeProgress: challengeModeProgressArray,
+            questions: this.questions.map(q => ({
+                id: q.id,
+                stats: q.stats
+            }))
+        };
+        
+        localStorage.setItem(this.storageKey, JSON.stringify(state));
+        return true;
+    }
+    
+    loadState() {
+        const savedState = localStorage.getItem(this.storageKey);
+        if (!savedState) return null;
+        
+        try {
+            return JSON.parse(savedState);
+        } catch (error) {
+            console.error('Error parsing saved quiz state:', error);
+            return null;
+        }
+    }
+    
+    restoreState(state) {
+        // First update question stats
+        if (state.questions && Array.isArray(state.questions)) {
+            state.questions.forEach(savedQuestion => {
+                const question = this.questions.find(q => q.id === savedQuestion.id);
+                if (question) {
+                    question.stats = savedQuestion.stats;
+                }
+            });
+        }
+        
+        // Restore question pools
+        this.activeQuestions = state.activeQuestionIds
+            ? state.activeQuestionIds.map(id => this.questions.find(q => q.id === id)).filter(Boolean)
+            : [];
+            
+        this.masteredQuestions = state.masteredQuestionIds
+            ? state.masteredQuestionIds.map(id => this.questions.find(q => q.id === id)).filter(Boolean)
+            : [];
+            
+        this.challengedQuestions = state.challengedQuestionIds
+            ? state.challengedQuestionIds.map(id => this.questions.find(q => q.id === id)).filter(Boolean)
+            : [];
+            
+        // Restore current question if there was one
+        if (state.currentQuestionId) {
+            this.currentQuestion = this.questions.find(q => q.id === state.currentQuestionId);
+        }
+        
+        // Restore challenge mode state
+        this.isInChallengeMode = state.isInChallengeMode || false;
+        
+        // Restore challenge mode progress map
+        this.challengeModeProgress = new Map();
+        if (state.challengeModeProgress && Array.isArray(state.challengeModeProgress)) {
+            state.challengeModeProgress.forEach(item => {
+                this.challengeModeProgress.set(item.key, item.value);
+            });
         }
     }
 
@@ -82,11 +165,13 @@ class Quiz {
                 streak: 0
             });
         });
+        this.saveState();
     }
 
     exitChallengeMode() {
         this.isInChallengeMode = false;
         this.challengeModeProgress.clear();
+        this.saveState();
     }
 
     processAnswer(selectedAnswer) {
@@ -134,6 +219,9 @@ class Quiz {
                 }
             }
         }
+
+        // Save state after processing answer
+        this.saveState();
 
         return {
             isCorrect,
@@ -201,5 +289,10 @@ class Quiz {
                 isChallenger: false
             };
         });
+        this.saveState();
+    }
+    
+    clearSavedState() {
+        localStorage.removeItem(this.storageKey);
     }
 }
