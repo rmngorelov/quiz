@@ -66,12 +66,23 @@ document.addEventListener('DOMContentLoaded', async () => {
         quiz.saveState();
     }
 
+    function playSound(isCorrect) {
+        const sound = document.getElementById(isCorrect ? 'correct-sound' : 'incorrect-sound');
+        sound.currentTime = 0; // Reset sound to beginning
+        sound.play().catch(error => {
+            console.error('Error playing sound:', error);
+        });
+    }
+
     function handleAnswer(selectedAnswer) {
         const result = quiz.processAnswer(selectedAnswer);
 
         feedbackText.textContent = result.isCorrect ? 'Correct!' : 'Incorrect!';
         streakText.textContent = `Current streak: ${result.streak}`;
         feedbackContainer.style.display = 'block';
+        
+        // Play sound feedback
+        playSound(result.isCorrect);
 
         const buttons = choicesContainer.getElementsByClassName('choice-btn');
         Array.from(buttons).forEach(button => {
