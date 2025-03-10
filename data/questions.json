@@ -1,249 +1,479 @@
 {
-  "questions": [
-    {
-      "text": "Where is China located?",
-      "choices": ["Western Asia", "Northern Asia", "Eastern Asia", "Southern Asia"],
-      "correctAnswer": "Eastern Asia"
-    },
-    {
-      "text": "Which river was central to the beginning of Ancient Chinese culture?",
-      "choices": ["Yangtze River", "Yellow River", "Huang He River", "Pearl River"],
-      "correctAnswer": "Huang He River"
-    },
-    {
-      "text": "How many seasons does China experience?",
-      "choices": ["2", "3", "4", "5"],
-      "correctAnswer": "4"
-    },
-    {
-      "text": "Which geographic features does China include?",
-      "choices": ["Only mountains and forests", "Only deserts and plains", "Mountains, hills, deserts, and forests", "Only rivers and lakes"],
-      "correctAnswer": "Mountains, hills, deserts, and forests"
-    },
-    {
-      "text": "Which direction did Ancient China spread after beginning along the Huang He River?",
-      "choices": ["Northward", "Eastward", "Southward", "Westward"],
-      "correctAnswer": "Southward"
-    },
-    {
-      "text": "During its period of great influence, Ancient China spread towards what region?",
-      "choices": ["Europe", "Africa", "Central Asia's deserts", "The Arctic"],
-      "correctAnswer": "Central Asia's deserts"
-    },
-    {
-      "text": "Which is NOT a geographic feature in or surrounding China?",
-      "choices": ["Huang He River", "Himalayas Mountains", "Gobi Desert", "Sahara Desert"],
-      "correctAnswer": "Sahara Desert"
-    },
-    {
-      "text": "What ocean borders China?",
-      "choices": ["Atlantic Ocean", "Arctic Ocean", "Indian Ocean", "Pacific Ocean"],
-      "correctAnswer": "Pacific Ocean"
-    },
-    {
-      "text": "How did Ancient China adapt to its environment along rivers?",
-      "choices": ["Built large cities", "Farmed in fertile soil", "Created dams", "Avoided the rivers"],
-      "correctAnswer": "Farmed in fertile soil"
-    },
-    {
-      "text": "Which was NOT a way Ancient China adapted to its environment?",
-      "choices": ["Farming", "Fishing", "Mining", "Hunting dinosaurs"],
-      "correctAnswer": "Hunting dinosaurs"
-    },
-    {
-      "text": "What term refers to the design of buildings?",
-      "choices": ["Ancient", "Architecture", "Contribution", "Geography"],
-      "correctAnswer": "Architecture"
-    },
-    {
-      "text": "What is a contribution?",
-      "choices": ["A large building", "A type of resource", "The act of giving or doing something", "A geographic feature"],
-      "correctAnswer": "The act of giving or doing something"
-    },
-    {
-      "text": "What does the term 'ancient' mean?",
-      "choices": ["New", "Current", "Long, long ago", "Far away"],
-      "correctAnswer": "Long, long ago"
-    },
-    {
-      "text": "Which is NOT listed as a Chinese invention?",
-      "choices": ["Kite", "Compass", "Fireworks", "Telephone"],
-      "correctAnswer": "Telephone"
-    },
-    {
-      "text": "What significant architectural contribution is mentioned from Ancient China?",
-      "choices": ["Pyramids", "Great Wall of China", "Colosseum", "Taj Mahal"],
-      "correctAnswer": "Great Wall of China"
-    },
-    {
-      "text": "What was the written language contribution of Ancient China characterized by?",
-      "choices": ["Letters", "Numbers", "Characters and symbols", "Hieroglyphics"],
-      "correctAnswer": "Characters and symbols"
-    },
-    {
-      "text": "What occurs when people focus on the production of selected goods and services?",
-      "choices": ["Globalization", "Specialization", "Industrialization", "Generalization"],
-      "correctAnswer": "Specialization"
-    },
-    {
-      "text": "What was the famous trade route that connected Ancient China to Europe?",
-      "choices": ["Spice Route", "Tea Road", "Silk Road", "Jade Path"],
-      "correctAnswer": "Silk Road"
-    },
-    {
-      "text": "What does specialization encourage according to the study guide?",
-      "choices": ["Isolation", "Trade and civilization growth", "Conflict", "Environmental damage"],
-      "correctAnswer": "Trade and civilization growth"
-    },
-    {
-      "text": "What is trade?",
-      "choices": ["Making goods", "The buying and selling of goods and services", "Mining resources", "Building cities"],
-      "correctAnswer": "The buying and selling of goods and services"
-    },
-    {
-      "text": "When does trade occur according to the study guide?",
-      "choices": ["When governments force it", "When individuals or groups benefit from it", "When resources are scarce", "When civilizations collapse"],
-      "correctAnswer": "When individuals or groups benefit from it"
-    },
-    {
-      "text": "What are natural resources?",
-      "choices": ["Materials that come directly from nature", "Goods made by people", "People working to produce goods", "Tools used in production"],
-      "correctAnswer": "Materials that come directly from nature"
-    },
-    {
-      "text": "What are human resources?",
-      "choices": ["Water and minerals", "Tools and equipment", "People working to produce goods and services", "Money and investments"],
-      "correctAnswer": "People working to produce goods and services"
-    },
-    {
-      "text": "What are capital resources?",
-      "choices": ["Money in the bank", "Natural landscapes", "Wild animals", "Goods made by people and used to produce other goods"],
-      "correctAnswer": "Goods made by people and used to produce other goods"
-    },
-    {
-      "text": "What is an economic choice?",
-      "choices": ["A decision about where to live", "The choice to buy one good over others", "A career decision", "A government policy"],
-      "correctAnswer": "The choice to buy one good over others"
-    },
-    {
-      "text": "What is opportunity cost?",
-      "choices": ["The monetary price of a good", "The time spent working", "The next best choice given up when an economic choice is made", "The cost of transportation"],
-      "correctAnswer": "The next best choice given up when an economic choice is made"
-    },
-    {
-      "text": "What must be compared when making economic decisions?",
-      "choices": ["Only benefits", "Only monetary costs", "Opportunity cost and monetary cost with benefits", "Only opportunity costs"],
-      "correctAnswer": "Opportunity cost and monetary cost with benefits"
-    },
-    {
-      "text": "Which is an example of a human resource in Ancient China?",
-      "choices": ["Water", "Paper", "Jade", "Artisan"],
-      "correctAnswer": "Artisan"
-    },
-    {
-      "text": "Which is an example of a capital resource in Ancient China?",
-      "choices": ["Merchant", "Rice", "Tools", "Gold"],
-      "correctAnswer": "Tools"
-    },
-    {
-      "text": "Which is an example of a natural resource in Ancient China?",
-      "choices": ["Farmer", "Umbrella", "Bamboo", "Basket"],
-      "correctAnswer": "Bamboo"
-    },
-    {
-      "text": "What textile product is mentioned as a Chinese invention?",
-      "choices": ["Cotton fabric", "Wool cloth", "Linen", "Silk cloth"],
-      "correctAnswer": "Silk cloth"
-    },
-    {
-      "text": "Which river did ancient Chinese civilization spread to after the Huang He?",
-      "choices": ["Mekong River", "Yellow River", "Yangtze River", "Pearl River"],
-      "correctAnswer": "Yangtze River"
-    },
-    {
-      "text": "Which mountains are mentioned as a geographic feature surrounding China?",
-      "choices": ["Alps", "Andes", "Rockies", "Himalayas"],
-      "correctAnswer": "Himalayas"
-    },
-    {
-      "text": "What desert is mentioned as a geographic feature of China?",
-      "choices": ["Sahara Desert", "Arabian Desert", "Gobi Desert", "Kalahari Desert"],
-      "correctAnswer": "Gobi Desert"
-    },
-    {
-      "text": "Which profession is NOT listed as a human resource example?",
-      "choices": ["Merchant", "Artisan", "Farmer", "Scholar"],
-      "correctAnswer": "Scholar"
-    },
-    {
-      "text": "Which item is NOT listed as a capital resource example?",
-      "choices": ["Paper", "Tools", "Fireworks", "Silk"],
-      "correctAnswer": "Silk"
-    },
-    {
-      "text": "Which item is NOT listed as a natural resource example?",
-      "choices": ["Water", "Jade", "Rice", "Paper"],
-      "correctAnswer": "Paper"
-    },
-    {
-      "text": "What main topics does the Ancient China assessment focus on?",
-      "choices": ["Art, Religion, Government, and Warfare", "Geography, Adaptations, Contributions, and Economics", "Language, Science, Mathematics, and Philosophy", "Family, Education, Medicine, and Technology"],
-      "correctAnswer": "Geography, Adaptations, Contributions, and Economics"
-    },
-    {
-      "text": "Where did Ancient Chinese civilization begin?",
-      "choices": ["Along the Yangtze River", "In the Gobi Desert", "Along the Huang He River", "In the Himalayan Mountains"],
-      "correctAnswer": "Along the Huang He River"
-    },
-    {
-      "text": "What navigational tool is listed as a Chinese invention?",
-      "choices": ["Astrolabe", "Sextant", "Compass", "GPS"],
-      "correctAnswer": "Compass"
-    },
-    {
-      "text": "Which celebratory item is listed as a Chinese invention?",
-      "choices": ["Balloons", "Candles", "Fireworks", "Party hats"],
-      "correctAnswer": "Fireworks"
-    },
-    {
-      "text": "Who would be considered a craftsman in Ancient China?",
-      "choices": ["Someone who grows rice", "Someone who catches fish", "Someone who makes pottery or tools", "Someone who sells goods"],
-      "correctAnswer": "Someone who makes pottery or tools"
-    },
-    {
-      "text": "What season is NOT experienced in China according to the study guide?",
-      "choices": ["Winter", "Spring", "Summer", "Monsoon"],
-      "correctAnswer": "Monsoon"
-    },
-    {
-      "text": "What is the definition of trade according to the study guide?",
-      "choices": ["Giving gifts", "Making products", "The buying and selling of goods and services", "Traveling to other countries"],
-      "correctAnswer": "The buying and selling of goods and services"
-    },
-    {
-      "text": "Which is TRUE about specialization in Ancient China?",
-      "choices": ["It discouraged trade", "It slowed civilization growth", "It caused people to become experts in certain goods and services", "It was forbidden by the government"],
-      "correctAnswer": "It caused people to become experts in certain goods and services"
-    },
-    {
-      "text": "What fishing environment is mentioned in the adaptations section?",
-      "choices": ["Lakes only", "Oceans only", "Rivers and seas", "Ponds only"],
-      "correctAnswer": "Rivers and seas"
-    },
-    {
-      "text": "When is the Ancient China assessment scheduled?",
-      "choices": ["Monday, February 24", "Wednesday, February 26", "Thursday, February 27", "Friday, February 28"],
-      "correctAnswer": "Friday, February 28"
-    },
-    {
-      "text": "How did Ancient Chinese people adapt to having natural resources?",
-      "choices": ["They ignored them", "They traded them all away", "They mined them", "They preserved them for future generations"],
-      "correctAnswer": "They mined them"
-    },
-    {
-      "text": "What characteristic of soil made it good for farming in Ancient China?",
-      "choices": ["Rocky", "Dry", "Acidic", "Fertile"],
-      "correctAnswer": "Fertile"
-    }
-  ]
+    "questions": [
+        {
+            "text": "Large numbers of ribosomes are present in cells that specialize in producing which of the following molecules?",
+            "choices": ["lipids", "cellulose", "nucleic acids", "proteins"],
+            "correctAnswer": "proteins"
+        },
+        {
+            "text": "Which organelle often takes up much of the volume of a plant cell?",
+            "choices": ["lysosome", "vacuole", "mitochondrion", "peroxisome"],
+            "correctAnswer": "vacuole" 
+        },
+        {
+            "text": "Which organelle is found in plant cells, but not in animal cells?",
+            "choices": ["peroxisome", "Golgi apparatus", "plastid", "nucleus"],
+            "correctAnswer": "plastid"
+        },
+        {
+            "text": "Which cellular structure helps maintain cell shape?",
+            "choices": ["nuclear envelope", "membrane proteins", "cytoskeleton", "ribosome"],
+            "correctAnswer": "cytoskeleton"
+        },
+        {
+            "text": "Which substance would diffuse through the cell membrane most rapidly?",
+            "choices": ["glucose", "starch", "O2", "amino acid"],
+            "correctAnswer": "O2"
+        },
+        {
+            "text": "Celery stalks placed in a concentrated salt solution become flaccid (limp). We can conclude that the salt solution is __________________ to the celery cells.",
+            "choices": ["hypertonic", "hypotonic", "isotonic"],
+            "correctAnswer": "hypertonic"
+        },
+        {
+            "text": "Which process requires ATP?",
+            "choices": ["facilitated diffusion", "movement of water into a cell through aquaporin proteins", "movement of sodium ions against the concentration gradient", "movement of sodium ions down the concentration gradient"],
+            "correctAnswer": "movement of sodium ions against the concentration gradient"
+        },
+        {
+            "text": "Endergonic reactions _________________.",
+            "choices": ["require energy", "release energy", "are spontaneous", "break down polymers"],
+            "correctAnswer": "require energy"
+        },
+        {
+            "text": "Catabolic reactions _____________________.",
+            "choices": ["synthesize larger molecules", "provide energy for cellular work", "include dehydration reactions", "consume energy"],
+            "correctAnswer": "provide energy for cellular work"
+        },
+        {
+            "text": "Which pH curve represents the activity of an enzyme from the human stomach, where conditions are strongly acidic?",
+            "choices": ["curve 4", "curve 5", "both curves 4 and 5", "neither curve 4 nor 5"],
+            "correctAnswer": "curve 4"
+        },
+        {
+            "text": "When an end product of a metabolic pathway inhibits an earlier step in the pathway, this is called ______________.",
+            "choices": ["competitive inhibition", "noncompetitive inhibition", "denaturation", "feedback inhibition"],
+            "correctAnswer": "feedback inhibition"
+        },
+        {
+            "text": "The end products of glycolysis are ATP, __________________________.",
+            "choices": ["CO2, and H2O", "CO2, and pyruvate", "NADH, and pyruvate", "CO2, and NADH"],
+            "correctAnswer": "NADH, and pyruvate"
+        },
+        {
+            "text": "When CO2 is removed from a molecule of pyruvate, _________________ is produced.",
+            "choices": ["FADH2", "oxaloacetate", "acetyl CoA", "citrate"],
+            "correctAnswer": "acetyl CoA"
+        },
+        {
+            "text": "Where are the proteins of the electron transport chain located?",
+            "choices": ["outer mitochondrial membrane", "inner mitochondrial membrane", "mitochondrial intermembrane space", "mitochondrial matrix"],
+            "correctAnswer": "inner mitochondrial membrane"
+        },
+        {
+            "text": "Which of the following occur(s) in the cytosol of a eukaryotic cell?",
+            "choices": ["glycolysis and fermentation", "fermentation and chemiosmosis", "oxidation of pyruvate to acetyl CoA", "citric acid cycle", "oxidative phosphorylation"],
+            "correctAnswer": "glycolysis and fermentation"
+        },
+        {
+            "text": "Most CO2 from catabolism is released during ___________________.",
+            "choices": ["glycolysis.", "the citric acid cycle.", "lactate fermentation.", "electron transport."],
+            "correctAnswer": "the citric acid cycle."
+        },
+        {
+            "text": "Where does the Calvin cycle take place?",
+            "choices": ["stroma of the chloroplast", "thylakoid membrane", "outer membrane of the chloroplast", "interior of the thylakoid (thylakoid space)"],
+            "correctAnswer": "stroma of the chloroplast"
+        },
+        {
+            "text": "Which statement about photosynthesis and cellular respiration is true?",
+            "choices": ["Electron transport occurs only in cellular respiration.", "Cellular respiration occurs only in animals and photosynthesis occurs only in plants.", "ATP is used in cellular respiration and produced in photosynthesis.", "Cellular respiration is catabolic and photosynthesis is anabolic."],
+            "correctAnswer": "Cellular respiration is catabolic and photosynthesis is anabolic."
+        },
+        {
+            "text": "The Calvin cycle produces _____________________.",
+            "choices": ["ATP", "carbon dioxide", "oxygen", "simple sugars"],
+            "correctAnswer": "simple sugars"
+        },
+        {
+            "text": "The light reactions of photosynthesis supply the Calvin cycle with ______________________.",
+            "choices": ["light energy", "C and ATP", "O2 and NADPH", "ATP and NADPH"],
+            "correctAnswer": "ATP and NADPH"
+        },
+        {
+            "text": "Which of the following statements concerning cells of prokaryotes is correct?",
+            "choices": ["Mitochondria are present in prokaryotes.", "Endoplasmic reticulum is present in prokaryotes.", "DNA is present in prokaryotes.", "A nucleus is present in prokaryotes."],
+            "correctAnswer": "DNA is present in prokaryotes."
+        },
+        {
+            "text": "The cell membrane is made of _______________________.",
+            "choices": ["phospholipids and cellulose", "phospholipids and proteins", "cholesterol and proteins", "proteins and cellulose"],
+            "correctAnswer": "phospholipids and proteins"
+        },
+        {
+            "text": "Which type of reaction tends to require an input of energy?",
+            "choices": ["spontaneous", "dehydration", "hydrolysis", "catabolic"],
+            "correctAnswer": "dehydration"
+        },
+        {
+            "text": "ATP is produced during _____________________.",
+            "choices": ["glycolysis only", "the electron transport chain only", "the citric acid cycle only", "glycolysis, the citric acid cycle, and the electron transport chain"],
+            "correctAnswer": "glycolysis, the citric acid cycle, and the electron transport chain"
+        },
+        {
+            "text": "What are the structures that hold adjacent cells close together and form a continuous seal between cells?",
+            "choices": ["cell walls", "gap junctions", "tight junctions", "desmosomes"],
+            "correctAnswer": "tight junctions"
+        },
+        {
+            "text": "Prokaryotes are classified as belonging to two different domains. What are the domains?",
+            "choices": ["Bacteria and Eukarya", "Bacteria and Protista", "Archaea and Protista", "Bacteria and Archaea"],
+            "correctAnswer": "Bacteria and Archaea"
+        },
+        {
+            "text": "Which of the following may be found in eukaryotic cells, but not in bacteria?",
+            "choices": ["DNA", "plasma membrane", "ribosomes", "endoplasmic reticulum"],
+            "correctAnswer": "endoplasmic reticulum"
+        },
+        {
+            "text": "Ribosomes are found on the surface of _____________.",
+            "choices": ["Golgi apparatus", "rough endoplasmic reticulum", "lysosomes", "vacuoles"],
+            "correctAnswer": "rough endoplasmic reticulum"
+        },
+        {
+            "text": "Which structure is the site of protein synthesis?",
+            "choices": ["smooth endoplasmic reticulum", "lysosomes", "rough endoplasmic reticulum", "Golgi vesicles"],
+            "correctAnswer": "rough endoplasmic reticulum"
+        },
+        {
+            "text": "In animal cells, which organelle contains digestive enzymes?",
+            "choices": ["mitochondrion", "lysosome", "central vacuole", "Golgi apparatus"],
+            "correctAnswer": "lysosome"
+        },
+        {
+            "text": "Which organelle has a double membrane?",
+            "choices": ["Golgi apparatus", "rough endoplasmic reticulum", "mitochondrion", "lysosome"],
+            "correctAnswer": "mitochondrion"
+        },
+        {
+            "text": "Which organelle is found in plant cells, but not in animal cells?",
+            "choices": ["peroxisome", "Golgi apparatus", "plastid", "nucleus"],
+            "correctAnswer": "plastid"
+        },
+        {
+            "text": "Which cellular structure supports cilia and flagella?",
+            "choices": ["nuclear envelope", "membrane proteins", "ribosomes", "cytoskeleton"],
+            "correctAnswer": "cytoskeleton"
+        },
+        {
+            "text": "What are the structures that hold adjacent cells close together and form a continuous seal between cells?",
+            "choices": ["cell walls", "gap junctions", "tight junctions", "desmosomes"],
+            "correctAnswer": "tight junctions"
+        },
+        {
+            "text": "The fluid mosaic model says that a membrane consists of",
+            "choices": ["a phospholipid bilayer.", "protein molecules embedded in a phospholipid bilayer.", "a single layer of phospholipids and proteins.", "a phospholipid bilayer between two layers of hydrophilic proteins."],
+            "correctAnswer": "protein molecules embedded in a phospholipid bilayer."
+        },
+        {
+            "text": "Diffusion _______________.",
+            "choices": ["requires ATP", "is a passive process", "is an active process", "is a process in which molecules move from a region of lower concentration to a region of higher concentration"],
+            "correctAnswer": "is a passive process"
+        },
+        {
+            "text": "Human blood has a lower salt concentration than seawater. What will happen if red blood cells are transferred to seawater?",
+            "choices": ["Water will leave the cells, causing them to shrivel and collapse.", "Salt will be exported from the red blood cells by facilitated diffusion.", "The blood cells will take up water, swell, and eventually burst.", "Salt will passively diffuse into the red blood cells."],
+            "correctAnswer": "Water will leave the cells, causing them to shrivel and collapse."
+        },
+        {
+            "text": "Putting a red blood cell in a hypertonic solution will result in ________________________.",
+            "choices": ["plasmolysis of the cell", "lysis of the cell", "the cell becoming turgid", "the cell shriveling"],
+            "correctAnswer": "the cell shriveling"
+        },
+        {
+            "text": "Proteins that pump ions across membranes against their concentration gradients are an example of __________________________.",
+            "choices": ["diffusion", "osmosis", "passive transport", "active transport"],
+            "correctAnswer": "active transport"
+        },
+        {
+            "text": "Which of the following processes includes all the others?",
+            "choices": ["osmosis", "diffusion of a solute across a membrane", "passive transport", "transport of an ion down its electrochemical gradient"],
+            "correctAnswer": "passive transport"
+        },
+        {
+            "text": "The first law of thermodynamics states __________________.",
+            "choices": ["energy cannot be created or destroyed", "entropy is always decreasing", "entropy is constant", "energy cannot be transferred or transformed"],
+            "correctAnswer": "energy cannot be created or destroyed"
+        },
+        {
+            "text": "Endergonic reactions _________________.",
+            "choices": ["require energy", "release energy", "are spontaneous", "break down polymers"],
+            "correctAnswer": "require energy"
+        },
+        {
+            "text": "This figure shows __________________________.",
+            "choices": ["inorganic phosphate stores energy for cellular work", "energy from catabolism can be used directly for cellular work", "ADP + ℗ store energy for cellular work", "ATP stores energy for cellular work"],
+            "correctAnswer": "ATP stores energy for cellular work"
+        },
+        {
+            "text": "A noncompetitive inhibitor _______________________.",
+            "choices": ["binds to the active site", "increases the reaction rate", "changes the shape of the enzyme active site", "is a cofactor"],
+            "correctAnswer": "changes the shape of the enzyme active site"
+        },
+        {
+            "text": "When an end product of a metabolic pathway inhibits an earlier step in the pathway, this is called ______________.",
+            "choices": ["competitive inhibition", "noncompetitive inhibition", "denaturation", "feedback inhibition"],
+            "correctAnswer": "feedback inhibition"
+        },
+        {
+            "text": "In animal cells, the electron transport chain occurs in the ________________.",
+            "choices": ["cytosol", "mitochondrial matrix", "inner mitochondrial membrane", "intermembrane space"],
+            "correctAnswer": "inner mitochondrial membrane"
+        },
+        {
+            "text": "In an oxidation-reduction reaction, the reducing agent __________________________.",
+            "choices": ["gains electrons and gains energy", "gains electrons and loses energy", "loses electrons and loses energy", "loses electrons and gains energy"],
+            "correctAnswer": "loses electrons and loses energy"
+        },
+        {
+            "text": "The products of glycolysis are _____________________.",
+            "choices": ["2 NAD+, 2 pyruvate, and 2 ATP", "2 NADH, 2 pyruvate, and 2 ATP", "2 FADH2, 2 pyruvate, and 4 ATP", "6 CO2, 2 pyruvate, and 2 ATP"],
+            "correctAnswer": "2 NADH, 2 pyruvate, and 2 ATP"
+        },
+        {
+            "text": "The end products of glycolysis are ATP, ____________________________.",
+            "choices": ["CO2, and H2O", "CO2, and pyruvate", "NADH, and pyruvate", "CO2, and NADH"],
+            "correctAnswer": "NADH, and pyruvate"
+        },
+        {
+            "text": "The process of glycolysis breaks one 6-carbon glucose molecule into two 3-carbon ______________ molecules.",
+            "choices": ["ATP", "pyruvate", "NADH", "CO2"],
+            "correctAnswer": "pyruvate"
+        },
+        {
+            "text": "During pyruvate oxidation and the citric acid cycle, how many molecules of CO2 are produced by processing one molecule of glucose?",
+            "choices": ["2", "3", "4", "6"],
+            "correctAnswer": "6"
+        },
+        {
+            "text": "In cellular respiration, carbon dioxide (CO2) is released during _________________________.",
+            "choices": ["glycolysis", "pyruvate oxidation and the citric acid cycle", "the electron transport chain", "glycolysis, pyruvate oxidation, and the citric acid cycle"],
+            "correctAnswer": "pyruvate oxidation and the citric acid cycle"
+        },
+        {
+            "text": "From one molecule of glucose, how many ATP molecules are produced during the citric acid cycle?",
+            "choices": ["1", "2", "28", "30"],
+            "correctAnswer": "2"
+        },
+        {
+            "text": "During aerobic respiration, which molecule donates electrons to the electron transport chain?",
+            "choices": ["pyruvate", "ATP", "FAD", "FADH2"],
+            "correctAnswer": "FADH2"
+        },
+        {
+            "text": "Which process produces the most ATP when glucose is oxidized to carbon dioxide and water?",
+            "choices": ["glycolysis", "fermentation", "pyruvate oxidation and the citric acid cycle", "the electron transport chain and chemiosmosis"],
+            "correctAnswer": "the electron transport chain and chemiosmosis"
+        },
+        {
+            "text": "In the mitochondria, where is the enzyme ATP synthase located?",
+            "choices": ["mitochondrial matrix", "electron transport chain", "inner membrane", "outer membrane"],
+            "correctAnswer": "inner membrane"
+        },
+        {
+            "text": "The ATP made during fermentation is generated by which of the following?",
+            "choices": ["the electron transport chain", "substrate-level phosphorylation", "chemiosmosis", "oxidative phosphorylation", "aerobic respiration"],
+            "correctAnswer": "substrate-level phosphorylation"
+        },
+        {
+            "text": "Which of the following occur(s) in mitochondria?",
+            "choices": ["glycolysis and fermentation", "fermentation and chemiosmosis", "glycolysis and oxidation of pyruvate to acetyl CoA", "oxidation of pyruvate to acetyl CoA and the citric acid cycle", "fermentation and oxidative phosphorylation"],
+            "correctAnswer": "oxidation of pyruvate to acetyl CoA and the citric acid cycle"
+        },
+        {
+            "text": "Which of the following occur(s) in the cytosol of a eukaryotic cell?",
+            "choices": ["glycolysis and fermentation", "fermentation and chemiosmosis", "oxidation of pyruvate to acetyl CoA", "citric acid cycle", "oxidative phosphorylation"],
+            "correctAnswer": "glycolysis and fermentation"
+        },
+        {
+            "text": "Where does the Calvin cycle take place?",
+            "choices": ["stroma of the chloroplast", "thylakoid membrane", "outer membrane of the chloroplast", "interior of the thylakoid (thylakoid space)"],
+            "correctAnswer": "stroma of the chloroplast"
+        },
+        {
+            "text": "Which products of the light reactions are used in the Calvin cycle?",
+            "choices": ["CO2 and glucose", "H2O and O2", "ADP, Pi, and NADP+", "ATP and NADPH"],
+            "correctAnswer": "ATP and NADPH"
+        },
+        {
+            "text": "The leaves of a plant appear to be reddish yellow. What wavelengths of visible light are NOT being absorbed by this pigment?",
+            "choices": ["red and yellow", "blue and violet", "green and yellow", "blue, green, and red"],
+            "correctAnswer": "red and yellow"
+        },
+        {
+            "text": "Which wavelength (color) of light has the most energy?",
+            "choices": ["400 nm (purple)", "550 nm (green)", "600 nm (yellow)", "700 nm (red)"],
+            "correctAnswer": "400 nm (purple)"
+        },
+        {
+            "text": "The enzyme, ____________________, fixes carbon during the Calvin cycle.",
+            "choices": ["G3P (glyceraldehyde-3-phosphate)", "glucose", "glucase", "rubisco"],
+            "correctAnswer": "rubisco"
+        },
+        {
+            "text": "Reactions that use CO2 take place in ____________________.",
+            "choices": ["the light reactions only", "the Calvin cycle only", "the citric acid cycle only", "both the light reactions and the Calvin cycle"],
+            "correctAnswer": "the Calvin cycle only"
+        },
+        {
+            "text": "Which microscope uses fluorescent molecules to visualize specific cellular components?",
+            "choices": ["Phase-contrast light microscope", "Confocal fluorescence microscope", "Scanning electron microscope", "Transmission electron microscope"],
+            "correctAnswer": "Confocal fluorescence microscope"
+        },
+        {
+            "text": "What is the membrane-enclosed region in prokaryotic cells that contains the cell's DNA called?",
+            "choices": ["Nucleus", "Nucleolus", "Nucleoid", "Nuclear envelope"],
+            "correctAnswer": "Nucleoid"
+        },
+        {
+            "text": "The fluid mosaic model describes the structure of:",
+            "choices": ["The cytoskeleton", "Cellular organelles", "The cell membrane", "The nuclear envelope"],
+            "correctAnswer": "The cell membrane"
+        },
+        {
+            "text": "Which organelle is responsible for packaging and modifying proteins for secretion or delivery to other organelles?",
+            "choices": ["Endoplasmic reticulum", "Golgi apparatus", "Lysosome", "Peroxisome"],
+            "correctAnswer": "Golgi apparatus"
+        },
+        {
+            "text": "The rough endoplasmic reticulum (ER) differs from the smooth ER because it:",
+            "choices": ["Is connected to the nuclear envelope", "Contains ribosomes on its surface", "Is involved in lipid synthesis", "Forms vesicles"],
+            "correctAnswer": "Contains ribosomes on its surface"
+        },
+        {
+            "text": "Which organelle contains enzymes that break down hydrogen peroxide?",
+            "choices": ["Lysosome", "Peroxisome", "Mitochondrion", "Chloroplast"],
+            "correctAnswer": "Peroxisome"
+        },
+        {
+            "text": "The ____________ are highly folded membranes inside mitochondria where the electron transport chain is located.",
+            "choices": ["Stroma", "Cristae", "Thylakoids", "Grana"],
+            "correctAnswer": "Cristae"
+        },
+        {
+            "text": "Which cellular junction forms water-tight seals between adjacent cells?",
+            "choices": ["Gap junction", "Desmosome", "Tight junction", "Plasmodesmata"],
+            "correctAnswer": "Tight junction"
+        },
+        {
+            "text": "The endosymbiont theory suggests that:",
+            "choices": ["Prokaryotes evolved from eukaryotes", "Mitochondria and chloroplasts were once free-living bacteria", "The cell membrane evolved from the nuclear envelope", "Ribosomes evolved from vesicles"],
+            "correctAnswer": "Mitochondria and chloroplasts were once free-living bacteria"
+        },
+        {
+            "text": "The movement of water across a selectively permeable membrane is called:",
+            "choices": ["Active transport", "Diffusion", "Facilitated diffusion", "Osmosis"],
+            "correctAnswer": "Osmosis"
+        },
+        {
+            "text": "When a cell is placed in a hypotonic solution:",
+            "choices": ["Water moves out of the cell", "The cell shrinks", "Water moves into the cell", "There is no net movement of water"],
+            "correctAnswer": "Water moves into the cell"
+        },
+        {
+            "text": "The sodium-potassium pump is an example of:",
+            "choices": ["Simple diffusion", "Facilitated diffusion", "Active transport", "Osmosis"],
+            "correctAnswer": "Active transport"
+        },
+        {
+            "text": "According to the second law of thermodynamics:",
+            "choices": ["Energy can be created or destroyed", "The total energy in a system remains constant", "The entropy of the universe is decreasing", "The entropy of the universe is increasing"],
+            "correctAnswer": "The entropy of the universe is increasing"
+        },
+        {
+            "text": "Reactions that release energy are called:",
+            "choices": ["Endergonic reactions", "Exergonic reactions", "Catabolic reactions", "Both B and C"],
+            "correctAnswer": "Both B and C"
+        },
+        {
+            "text": "The region of an enzyme where the substrate binds is called the:",
+            "choices": ["Allosteric site", "Active site", "Coenzyme", "Prosthetic group"],
+            "correctAnswer": "Active site"
+        },
+        {
+            "text": "When an end product of a metabolic pathway inhibits an enzyme in that pathway, this is called:",
+            "choices": ["Competitive inhibition", "Non-competitive inhibition", "Feedback inhibition", "Allosteric regulation"],
+            "correctAnswer": "Feedback inhibition"
+        },
+        {
+            "text": "Glycolysis takes place in the:",
+            "choices": ["Mitochondrial matrix", "Cytosol", "Inner mitochondrial membrane", "Intermembrane space"],
+            "correctAnswer": "Cytosol"
+        },
+        {
+            "text": "The Krebs cycle (citric acid cycle) occurs in the:",
+            "choices": ["Cytosol", "Mitochondrial matrix", "Intermembrane space", "Inner mitochondrial membrane"],
+            "correctAnswer": "Mitochondrial matrix"
+        },
+        {
+            "text": "Which process produces the most ATP molecules per glucose molecule?",
+            "choices": ["Glycolysis", "Krebs cycle", "Electron transport chain and chemiosmosis", "Fermentation"],
+            "correctAnswer": "Electron transport chain and chemiosmosis"
+        },
+        {
+            "text": "When pyruvate is converted to acetyl CoA, which molecule is released?",
+            "choices": ["Oxygen", "Carbon dioxide", "Water", "ATP"],
+            "correctAnswer": "Carbon dioxide"
+        },
+        {
+            "text": "In the absence of oxygen, cells can generate ATP through:",
+            "choices": ["Electron transport chain", "Oxidative phosphorylation", "Fermentation", "Krebs cycle"],
+            "correctAnswer": "Fermentation"
+        },
+        {
+            "text": "The light reactions of photosynthesis take place in the:",
+            "choices": ["Stroma", "Thylakoid membrane", "Intermembrane space", "Outer chloroplast membrane"],
+            "correctAnswer": "Thylakoid membrane"
+        },
+        {
+            "text": "The Calvin cycle (carbon fixation reactions) takes place in the:",
+            "choices": ["Thylakoid membrane", "Thylakoid space", "Stroma", "Intermembrane space"],
+            "correctAnswer": "Stroma"
+        },
+        {
+            "text": "The enzyme that catalyzes the fixation of carbon dioxide in the Calvin cycle is:",
+            "choices": ["Rubisco", "ATP synthase", "Photosystem II", "Photosystem I"],
+            "correctAnswer": "Rubisco"
+        },
+        {
+            "text": "Which products of the light reactions are used in the Calvin cycle?",
+            "choices": ["O2 and glucose", "CO2 and H2O", "ATP and NADPH", "CO2 and ATP"],
+            "correctAnswer": "ATP and NADPH"
+        },
+        {
+            "text": "Plants that have adapted to hot, dry environments by fixing carbon dioxide at night and performing the Calvin cycle during the day use:",
+            "choices": ["C3 photosynthesis", "C4 photosynthesis", "Crassulacean acid metabolism (CAM)", "Photorespiration"],
+            "correctAnswer": "Crassulacean acid metabolism (CAM)"
+        },
+        {
+            "text": "Which wavelengths of light are most effective for photosynthesis?",
+            "choices": ["Green", "Red and blue", "Yellow", "Ultraviolet"],
+            "correctAnswer": "Red and blue"
+        },
+        {
+            "text": "The final electron acceptor in the electron transport chain of cellular respiration is:",
+            "choices": ["Oxygen", "Carbon dioxide", "Water", "NADH"],
+            "correctAnswer": "Oxygen"
+        },
+        {
+            "text": "Which of the following correctly orders the organelles involved in protein secretion?",
+            "choices": ["Nucleus → Golgi apparatus → rough ER → vesicles", "Nucleus → rough ER → Golgi apparatus → vesicles", "Rough ER → nucleus → Golgi apparatus → vesicles", "Golgi apparatus → rough ER → nucleus → vesicles"],
+            "correctAnswer": "Nucleus → rough ER → Golgi apparatus → vesicles"
+        },
+        {
+            "text": "During substrate-level phosphorylation, ATP is produced by:",
+            "choices": ["The direct transfer of a phosphate group from a substrate to ADP", "The flow of electrons through the electron transport chain", "The pumping of protons across a membrane", "The breakdown of glucose to pyruvate"],
+            "correctAnswer": "The direct transfer of a phosphate group from a substrate to ADP"
+        }
+    ]
 }
